@@ -1,0 +1,26 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            FrenchTouch
+tagline:          'Because the world needs depth'
+description:      'A brazen column that pairs analysis depth with uncomplicated words.'
+url:              http://french-touch.tech
+baseurl:          /
+
+author:
+  name:           'Sebas & Oberron'
+  url:            https://twitter.com/mdo
+
+paginate:         3
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/poole/hyde
