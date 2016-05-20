@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What is French-Touch.tech
-author: Oberron
+author: Sebas
 ---
 
 # What is the french way ?
