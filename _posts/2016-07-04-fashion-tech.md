@@ -20,7 +20,7 @@ Another example is in Quantum physics where the Copenhagen Interpretation. This 
 
 ## Sources:
 
-* Buzzfeed Evolution of Swimsuit:
+* Buzzfeed Evolution of Swimsuit: 
 [link](https://www.youtube.com/watch?v=GX1_2-o1kik)
 * Vogue
 [link](https://www.youtube.com/watch?v=M4z90wlwYs8)
