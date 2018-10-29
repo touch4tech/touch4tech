@@ -6,7 +6,7 @@ author: Oberron
 
 [FrenchTouch.tech](http://www.frenchtouch.tech) is about discussing the specifics of the `french-touch`. 
 
-This blog started after reading multiple news article which mentionned the `french-touch` but never explained what it was referrring to.
+This blog started after reading multiple news article which mentionned the `french-touch` but never explained what it was referrring to...
 
 It is also about discussing how the french culture and ways of doing things can bring a much needed diversity in a world falling at lighting speed under the influence of english speaking media and artists.
 
