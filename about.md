@@ -3,7 +3,7 @@ layout: page
 title: About
 author: Oberron
 ---
-8765432
+98765432
 [FrenchTouch.tech](http://www.frenchtouch.tech) is about discussing the specifics of the `french-touch`. 
 
 This blog started after reading multiple news article which mentionned the `french-touch` but never explained what it was referrring to...
