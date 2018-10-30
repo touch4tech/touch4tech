@@ -1,5 +1,6 @@
 # Dependencies
-markdown:         kramdown #redcarpet
+markdown:         kramdown
+#redcarpet
 highlighter:      pygments.rb
 
 # Permalinks
@@ -24,5 +25,5 @@ version:          2.1.0
 
 github:
   repo:           https://github.com/poole/hyde
-#version 3.0
-plugins: [jekyll-paginate,redcarpet,pygments.rb]
+#version 3.a
+plugins: [jekyll-paginate,kramdown,pygments.rb]
