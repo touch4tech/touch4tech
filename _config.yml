@@ -25,4 +25,4 @@ version:          2.1.0
 github:
   repo:           https://github.com/poole/hyde
 #version 3.0
-gems: [jekyll-paginate]
+gems: [jekyll-paginate,redcarpet,pygments.rb]
