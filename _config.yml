@@ -1,6 +1,6 @@
 # Dependencies
 markdown:         redcarpet
-highlighter:      pygments
+highlighter:      pygments.rb
 
 # Permalinks
 permalink:        pretty
