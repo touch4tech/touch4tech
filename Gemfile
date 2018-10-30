@@ -2,4 +2,4 @@ source 'https://rubygems.org'
 
 gem 'jekyll'
 gem 'jekyll-paginate'
-gem 'pygments'
+gem 'pygments.rb'
