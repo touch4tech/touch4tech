@@ -12,7 +12,7 @@ title:            FrenchTouch
 tagline:          'Because the world needs depth'
 description:      'A column that pairs analysis depth with uncomplicated words.'
 url:              http://mattu/frenchtouch
-baseurl:          /
+baseurl:          /frenchtouch/
 
 author:
   name:           'Sebas & Oberron'
