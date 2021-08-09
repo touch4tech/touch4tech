@@ -12,8 +12,8 @@ author: Oberron
 > if it is Turing complete, let's port python onto it.
 
 ## Oberron
-![Oberron](https://media.licdn.com/media/p/6/000/1ea/0ed/3eda4a5.jpg)
+![Oberron](https://www.gravatar.com/avatar/d891a93985bae7576f011cbf434197d0?s=128&d=identicon&r=PG)
 
-* Civil State: Marius Chevrier
+* Civil State: Aubéron Vacher
 
 > impossible is an illusion, non-obviousness is a fact
