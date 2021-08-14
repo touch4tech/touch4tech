@@ -9,7 +9,7 @@ Topics discussed:
 
 Redrawn here to provide human readable text based version controlled content:
 |     image   | text  |
-|:===========:|:=====:|
+|-------------|-------|
 | ![img][img] | [txt][puml] |
 
 [img]: http://www.plantuml.com/plantuml/proxy?cache=no&src=https://gist.githubusercontent.com/oberron/36e0394188b6f80e55157793f20e3a54/raw/funnel.puml
