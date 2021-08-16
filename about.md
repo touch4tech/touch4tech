@@ -4,7 +4,7 @@ title: About
 author: Oberron
 ---
 
-[FrenchTouch.dev](http://www.frenchtouch.dev) is about discussing the specifics of the `french-touch`. 
+[FrenchTouch.dev](http://frenchtouch.dev) is about discussing the specifics of the `french-touch`. 
 
 This blog started after reading multiple news article which mentionned the `french-touch` but never explained what it was referrring to...
 
