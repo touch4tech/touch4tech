@@ -1,7 +1,7 @@
 # Dependencies
 markdown:         kramdown
 #redcarpet
-highlighter:      pygments.rb
+highlighter:      rouge.rb
 
 # Permalinks
 permalink:        pretty
@@ -10,13 +10,13 @@ permalink:        pretty
 # Setup
 title:            FrenchTouch
 tagline:          'Because the world needs depth'
-description:      'A column that pairs analysis depth with uncomplicated words.'
-url:              http://french-touch.tech
+description:      'Society advances when information goes faster from brain to brain'
+url:              http://french-touch.dev
 baseurl:          /
 
 author:
   name:           'Sebas & Oberron'
-  url:            https://twitter.com/mdo
+  url:            https://frenchtouch.dev/Contact/
 
 paginate:         3
 
@@ -24,6 +24,6 @@ paginate:         3
 version:          2.1.0
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/french-touch/frenchtouch
 #version 3.a
-plugins: [jekyll-paginate,kramdown,pygments.rb]
+plugins: [jekyll-paginate,kramdown]
