@@ -5,7 +5,7 @@ categories: idea
 author: oberron, rezpe
 ---
 
-## Problems in sources of information 
+## Problems in sources of information
 
 > Society advances when information goes faster from brain to brain.
 
