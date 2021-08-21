@@ -1,6 +1,7 @@
 ---
 layout: post
 title: french touch lost for online fashion?
+categories: french-touch
 author: Oberron
 ---
 

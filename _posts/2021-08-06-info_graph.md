@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Content nature
+categories: idea
 author: Sebas
 ---
 
