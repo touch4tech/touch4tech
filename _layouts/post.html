@@ -8,7 +8,7 @@ layout: default
   
   {% if page.categories %}
   <span class="categories">
-    &raquo; {% for category in page.categories %}<a href="{{site.baseurl}}/_categories/{{ category }}">{{ category }}</a>{% if forloop.last == false %}, {% endif %}{% endfor %}
+    &raquo; {% for category in page.categories %}<a href="{{site.baseurl}}/category/{{ category }}">{{ category }}</a>{% if forloop.last == false %}, {% endif %}{% endfor %}
   </span>
   {% endif %}
 
