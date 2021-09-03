@@ -1,5 +1,5 @@
 ---
-date: 2021-08-12
+date: 2021-09-03
 title: Innovation has stalled
 categories: idea
 author: [oberron, rezpe]
