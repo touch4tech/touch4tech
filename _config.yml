@@ -15,7 +15,7 @@ url:              http://frenchtouch.dev
 baseurl:          /
 
 author:
-  name:           'Sebas & Oberron'
+  name:           'Sebas and Oberron'
   url:            https://frenchtouch.dev/Contact/
 
 paginate:         3
