@@ -3,6 +3,7 @@ date: 2021-09-17
 title: Thoughts on Information
 categories: idea
 author: [oberron, rezpe]
+know-list: [khan-Thermodynamics-part5, khan-Algebra-part2]
 ---
 
 Information can be zoomed in or out so for example we can start with an idea which can be set in 45 seconds generated in 3 minutes up to the 10,000 hours that is the time need to become an expert.
@@ -19,3 +20,20 @@ We could even say that a degree it just a snapshot of the score in those exercis
 Finally those requirements depend on the expectation that you have:
 - you might want to go deep if you are an expert (down to the axioms) 
 - or just have a high level of understanding for casual readers
+
+---
+
+Change of scale examples:
+
+$$ \forall n \in \mathbb{N}, \exists a_n, b_n \in \mathbb{Z}~so~that~ I_n = \int_{0}^{\infty} x^n \cdot e^x \,dx\ = a_n + e \cdot b_n$$
+
+> source [bestiaire maths Ex. 165](https://www.math.univ-toulouse.fr/~lassere/pdf/bestiaire.pdf)
+
+--- 
+
+Change of scale examples #2
+
+Knowledge of the speed and mass of all gas particles can help compute the gas temperature but temperature can also be measured by a simple thermometer.
+$$ f(v) = \sqrt{[\frac{m}{2\pi k T}]^3} \cdot 4 \pi v^2 e^{-\frac{mv^2}{2kT}}$$
+
+> source [maxwell-boltzmann-distribution (https://www.khanacademy.org/science/physics/thermodynamics/temp-kinetic-theory-ideal-gas-law/a/what-is-the-maxwell-boltzmann-distribution)
