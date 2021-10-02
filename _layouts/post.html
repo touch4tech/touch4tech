@@ -10,6 +10,15 @@ layout: default
   <span class="categories">
     &raquo; {% for category in page.categories %}<a href="{{site.baseurl}}/category/{{ category }}">{{ category }}</a>{% if forloop.last == false %}, {% endif %}{% endfor %}
   </span>
+  <!-- Dependencies -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://ableplayer.github.io/ableplayer/thirdparty/js.cookie.js></script>
+
+  <!-- Able Player CSS -->
+  <link rel="stylesheet" href="https://ableplayer.github.io/ableplayer/build/ableplayer.min.css" type="text/css"/>
+
+  <!-- Able Player JavaScript -->
+  <script src="https://ableplayer.github.io/ableplayer/build/ableplayer.js"></script>
   {% endif %}
 
   {{ content }}
