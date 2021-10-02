@@ -32,11 +32,6 @@ Similarly to a powerpoint Karaoke, business world has turned more into being con
 
 RenDanHeYi (人单合一)
 
-<div class="wrapper">
-<video id="video1" data-able-player preload="auto" width="480" height="360" poster="path_to_image.jpg" data-youtube-id="5pI3IN6VDA8" >
-  <track kind="captions" src="https://raw.githubusercontent.com/french-touch/frenchtouch/master/public/webvtt/Rendanheyi_by_ZhangRuimin.vtt"/>
-</video>
-  </div>
 
 Draft notes:
 
