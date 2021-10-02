@@ -28,15 +28,7 @@ Similarly to a powerpoint Karaoke, business world has turned more into being con
 
 ---
 
-<!-- Dependencies -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://ableplayer.github.io/ableplayer/thirdparty/js.cookie.js></script>
 
-<!-- Able Player CSS -->
-<link rel="stylesheet" href="https://ableplayer.github.io/ableplayer/build/ableplayer.min.css" type="text/css"/>
-
-<!-- Able Player JavaScript -->
-<script src="https://ableplayer.github.io/ableplayer/build/ableplayer.js"></script>
 
 RenDanHeYi (人单合一)
 
