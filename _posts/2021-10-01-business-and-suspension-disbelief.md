@@ -10,46 +10,25 @@ know-list: wiki[Suspension_of_disbelief], wiki[Conway%27s_law], wiki[PowerPoint_
 
 # Business and suspension of disbelief
 
-Big business moved to be more about keeping the show going-on than big business
+Business has moved from entrepreneurship to `PowerPoint Karaoke`. 
 
-## PowerPoint Karaoke
+## The `PowerPoint Karaoke` of business
 
-Similarly to a powerpoint Karaoke, business world has turned more into being convincing when presenting and often calling on so much corporate jargon `BS bingo`
+> The only rule in a `Powerpoint Karaoke` is for the show person to never retreat from a clain and own all the statments made.
 
-## Torn between obsession and Failure
+* Similarly the business world be it in big business or in startup has turned more into being convincing when presenting than value creation.
+* The underlying principle in action is that actors (the ones presenting) or spectators are entering a state of `Suspension of Disbelief` where consitency across all presentations trumps verification.
+* Which leaves no place for constructive criticism (except still in deep technical organisation) especially when it comes to verify business assumptions.
 
-*
-*
-*
+## Differences
 
-## Conway aikido
+* However some difference remain between business and impro-theater. For instance in business it is key to stick to the branch or industry `Buzzword Bingo` semantics.
+* Another difference between startup and big business and the `oscillation between obsession and failure` often seen and needed in startups.
+* 
 
-*
-*
-*
+## Moving to the `Aikido of Conway`
 
----
+* Given that any organisation will deliver products and service matching its internal organisation as per the `Conway's Law`
+* One must not seek to fight it but like in aikido unify this energy in a `Aikido of Conway` best examplifies lately by `RenDanHeYi (人单合一)` from Hayer's CEO (Zhang Ruimin - 张瑞敏).
+* Align internal structure with customer need to ensure delivery are aligned with needs.
 
-
-
-RenDanHeYi (人单合一)
-
-
-Draft notes:
-
-
-business world moved into a show
-* ppt prez cannot be interrupted / cancelled
-
-l'important c'est de croire en ce qu'on presente
-
-pas de place pour la critique constructive
-
-suspension of believe in buz world
-
-startup c'est 2 forces opposees
-* l'echec
-* l'obsession
-multiplie par l'intensite
-
-conway aikido
