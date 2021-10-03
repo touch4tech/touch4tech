@@ -26,9 +26,11 @@ layout: default
 
   {{ content }}
   {% if page.video %}
+  <div id="transcript">
   <div class="wrapper">
-    <video id="video1" data-able-player preload="auto" width="480" height="360" poster="path_to_image.jpg" data-youtube-id="5pI3IN6VDA8" >
+    <video id="video1" data-able-player preload="auto" width="240" height="180" poster="/public/img/business2.0_is_rendanheyi.svg" data-youtube-id="5pI3IN6VDA8" data-transcript-div="transcript" playsinline>
     <track kind="captions" src="https://raw.githubusercontent.com/french-touch/frenchtouch/master/public/webvtt/Rendanheyi_by_ZhangRuimin.vtt"/>
+    <track kind="chapters" src="https://raw.githubusercontent.com/french-touch/frenchtouch/master/public/webvtt/Rendanheyi_by_ZhangRuimin_chapters.vtt"/>
   </video>
   </div>
   {% endif %}

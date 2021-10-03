@@ -1,4 +1,29 @@
-# Hyde
+# FRENCHTOUCH.dev
+
+## DEPLOYMENT
+
+### Git Hub Pages
+
+> Already at works [frenchtouch.dev](https://frenchtouch.dev)
+
+### Local Machine
+
+```bash
+jekyll serve
+```
+
+### VPS
+
+> To be documented later
+
+## CREDITS 
+
+* [Jekyll](http://jekyllrb.com)
+* [Hyde](#HYDE) theme for [Jekyll](http://jekyllrb.com)
+
+## HYDE
+
+> initial readme
 
 Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.
 
