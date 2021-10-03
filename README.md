@@ -9,7 +9,7 @@
 ### Local Machine
 
 ```bash
-jekyll serve
+bundle exec jekyll serve
 ```
 
 ### VPS
