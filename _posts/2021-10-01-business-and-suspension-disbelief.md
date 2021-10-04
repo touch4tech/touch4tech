@@ -8,9 +8,9 @@ author: [oberron, rezpe]
 know-list: wiki[Suspension_of_disbelief], wiki[Conway%27s_law], wiki[PowerPoint_karaoke], wiki[Buzzword_bingo]
 --- 
 
-# Business and suspension of disbelief
+# Corporate life and `suspension of disbelief`
 
-Business has moved from entrepreneurship to `PowerPoint Karaoke`. 
+> What can we learn from `suspension of disbelief`, `PowerPoint Karaoke` and `Conway's law` for a more productive corporate/private life.
 
 ## The `PowerPoint Karaoke` of business
 
@@ -22,13 +22,16 @@ Business has moved from entrepreneurship to `PowerPoint Karaoke`.
 
 ## Differences
 
-* However some difference remain between business and impro-theater. For instance in business it is key to stick to the branch or industry `Buzzword Bingo` semantics.
-* Another difference between startup and big business and the `oscillation between obsession and failure` often seen and needed in startups.
-* 
+* In business another rule is to stick to the branch or industry `Buzzword Bingo` semantics.
+* Startup will also oscillate between obsession and failure whereas impro theater will focus on the flow and public feedback.
+* Camel start-up stand-out when it comes to business (corporate or unicorn startups) as focus on customer income is key
 
 ## Moving to the `Aikido of Conway`
 
+> Instead of fighting the corporate business, identify its strength and use them for your work/life balance.
+
 * Given that any organisation will deliver products and service matching its internal organisation as per the `Conway's Law`
-* One must not seek to fight it but like in aikido unify this energy in a `Aikido of Conway` best examplifies lately by `RenDanHeYi (人单合一)` from Hayer's CEO (Zhang Ruimin - 张瑞敏).
 * Align internal structure with customer need to ensure delivery are aligned with needs.
+* One must not seek to fight it but like in aikido unify this energy in a `Aikido of Conway` best examplifies lately by `RenDanHeYi (人单合一)` from Hayer's CEO (Zhang Ruimin - 张瑞敏). See below in transcripts key insights from Zhang Ruimin.
+
 
