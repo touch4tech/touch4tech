@@ -1,4 +1,10 @@
-
+---
+date: 2021-10-27
+title: Technical Innovations will lead to new political systems
+categories: idea
+layout: post
+author: [oberron, rezpe]
+--- 
 
 Improvements of the distribution of information have brought significant improvements in human s life and had had repercussions on political systems. 
 
