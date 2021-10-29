@@ -23,8 +23,6 @@ Combination of structured law text and public websites could allow for rapids cr
 
 Online referendi make it possible to spread information and get citizen or use opinion instantly. For example, teams from Microsoft let attendees send live questions and vote already submitted questions. This gives priority to the interest of the majority in real time and automatically.
 
-We also should take into account the context we are living in. China and Russia are pushing an ideological war against democracies which they seemed inferior to their systems. This is also pushing democracies to improve and adopt innovations to keep being relevant systems. 
-
 
 [1] https://foreignpolicy.com/2020/12/18/china-democracy-ideology-communist-party/
 [2] https://catala-lang.org/
