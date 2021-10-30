@@ -1,5 +1,5 @@
 ---
-date: 2021-10-29
+date: 2021-10-30
 title: Knowledge Dogma
 categories: idea
 layout: post
