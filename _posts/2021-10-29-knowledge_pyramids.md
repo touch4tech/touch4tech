@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Knwoledge pyramid
+title: Knowledge pyramid
 author: oberron
 ---
 
