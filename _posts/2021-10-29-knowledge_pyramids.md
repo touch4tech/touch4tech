@@ -1,10 +1,8 @@
 ---
 layout: post
 title: Knwoledge pyramid
-author: Oberron
+author: oberron
 ---
-
-# Knowledge pyramids
 
 > DIKW pyramid
 > Evidence based pyramid
@@ -27,7 +25,7 @@ Data
 
 ### medical
 
-The below is a simplified wording for the pyramid suggested by Guyatt and Sackett in 1995
+The below is a simplified wording for the pyramid suggested by Guyatt and Sackett in 1995 [1]
 
 ```pyramid
 Meta-analyses
@@ -79,3 +77,5 @@ Collect
 * Optimise has actually two dimensions:
     * optimising actions towards a dedicated outcome (known as wisdom in the `DIKW pyramid`)
     * optimising of the model either to simplif it (`accam's rasor`) or optimising the model to reduce the gap between the model predictions and observed changes in data when actions are undertaken.
+
+[1]
