@@ -1,3 +1,6 @@
+
+VR and AR will introduce new input devices
+
 If we look at the counter website we can see that 57% of the traffic comes on mobile, 40% from desktop and 3% comes from tablet. And with the recent announcement of the metaverse by Facebook/Meta, we can wonder what would be the evolution of those devices.
 
 It seems mobile devices will be replaced by augmented reality and desktop will be replaced by virtual reality. And this is not surprising because at the end of the day, many people see these innovations just as a new type of "screens". For example with VR, we just extend to the maximum the surface that is available to display information. AR removes the need to have a mobile device with screen on your pocket as the glasses will replace the 7 inch screen of your mobile. You will just need to have a computing device with you or in the cloud.
