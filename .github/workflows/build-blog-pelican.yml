@@ -5,7 +5,7 @@ on:
       - master
 jobs:
   build_job:
-    name: Deploy blog
+    name: Deploy blog w/ wrapper
     runs-on: ubuntu-latest
     steps:
       - name: Install Python
