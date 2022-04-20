@@ -2,7 +2,7 @@
 layout: post
 title: What is French-Touch.tech
 categories: french-touch
-author: Sebas
+authors: Rezpe
 ---
 
 # What is the french way ?

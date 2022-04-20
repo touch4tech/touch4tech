@@ -1,8 +1,8 @@
 ---
 date: 2021-09-03
 title: Innovation has stalled
-categories: idea
-author: [oberron, rezpe]
+category: idea
+authors: oberron, rezpe
 ---
 
 Technical innovation brings up to 10x improvements on our work and personal life. This can be brought in 2 ways:

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Content nature
-categories: idea
-author: Sebas
+category: idea
+author: Rezpe
 ---
 
 Content is a graph of ideas displayed in a linear way.

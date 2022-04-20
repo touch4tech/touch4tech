@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Fashion, Technology and Trends
-author: Sebas
+Category: business
+authors: Rezpe
 ---
 
 # Fashion, Technology and Trends

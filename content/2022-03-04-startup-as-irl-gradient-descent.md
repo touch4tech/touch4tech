@@ -1,7 +1,8 @@
 ---
 date: 2022-03-04
 title: Business Development is a Gradient descent algorithm
-categories: business
+Category: business
+Authors: Oberron, Rezpe
 ---
 
 # Business Development is a Gradient descent algorithm

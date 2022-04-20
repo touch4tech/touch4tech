@@ -1,9 +1,9 @@
 ---
 date: 2021-10-30
 title: Knowledge Dogma
-categories: idea
+category: idea
 layout: post
-author: [oberron, rezpe]
+authors: oberron, rezpe
 --- 
 
 We are lacking an healthy ground for research for novel solutions

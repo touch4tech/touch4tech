@@ -2,6 +2,7 @@
 layout: post
 title: Knowledge pyramid
 author: oberron
+category: idea
 ---
 
 > DIKW pyramid

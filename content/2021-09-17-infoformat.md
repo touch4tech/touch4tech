@@ -1,8 +1,8 @@
 ---
 date: 2021-09-17
 title: Thoughts on Information
-categories: idea
-author: [oberron, rezpe]
+category: idea
+authors: oberron, rezpe
 know-list: [khan-Thermodynamics-part5, khan-Algebra-part2]
 ---
 

@@ -1,6 +1,8 @@
 ---
-title: encyclopedism future
+Title: encyclopedism future
 date: 2022-04-02
+Category: idea
+Authors: Oberron
 ---
 
 Tweet: wikipedia is dying long live p2p education !!

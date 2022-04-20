@@ -1,8 +1,8 @@
 ---
 layout: post
-title: What is French-Touch.tech
+title: What is the French-Touch
 categories: french-touch
-author: Oberron
+authors: Oberron
 ---
 [FrenchTouch.tech](http://www.frenchtouch.tech) is about discussing the specifics of the `french-touch`. 
 

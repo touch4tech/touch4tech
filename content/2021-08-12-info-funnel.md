@@ -1,8 +1,8 @@
 ---
 date: 2021-08-12
 title: Information Funnel
-categories: idea
-author: [oberron, rezpe]
+category: idea
+authors: oberron, rezpe
 ---
 
 ## Problems in sources of information

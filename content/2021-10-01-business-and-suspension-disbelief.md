@@ -1,10 +1,10 @@
 ---
 date: 2021-10-01
 title: Business and suspension of disbelief
-categories: idea
+category: idea
 layout: post
 video: 5pI3IN6VDA8
-author: [oberron, rezpe]
+authors: oberron, rezpe
 know-list: wiki[Suspension_of_disbelief], wiki[Conway%27s_law], wiki[PowerPoint_karaoke], wiki[Buzzword_bingo]
 --- 
 

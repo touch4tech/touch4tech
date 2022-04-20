@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block body %}
+  {{ super() }}
+  <h1>{{ article.title }}</h1>
+  {% include 'categorylist.html' %}
+  {% include 'taglist.html' %}
+  Authors: {% for author, articles in authors|sort %} <a href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a> , {% endfor %}
+  <br>
+  <hr>
+
+   {{article.content}}
+{% endblock %}  
