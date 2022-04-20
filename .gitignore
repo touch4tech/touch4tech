@@ -1,3 +1,5 @@
 _site
+www_folder
 .jekyll-cache
 Gemfile.lock
+__pycache__
