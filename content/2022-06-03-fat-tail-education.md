@@ -7,7 +7,7 @@ authors: sebas, oberron
 
 # Education from fractional distillation to fat tail
 
-![](power-law-education.svg)
+![alt_text](power-law-education.svg)
 
 ## Education as fractional distillation
 
