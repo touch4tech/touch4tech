@@ -8,7 +8,7 @@ print(20,"test",SITEURL)
 
 
 PATH = 'content'
-STATIC_PATHS = ["content/img","content/webvtt"]
+STATIC_PATHS = ["img","webvtt"]
 OUTPUT_PATH = 'public'
 PLUGINS = ['sitemap', 'pelican-ipynb.markup']
 

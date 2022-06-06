@@ -6,13 +6,13 @@ author: Oberron
 
 # Authors
 
-![](http://cdn.slidesharecdn.com/profile-photo-Sebpv-96x96.jpg?cb=1459437655)
+![Rezpe](http://cdn.slidesharecdn.com/profile-photo-Sebpv-96x96.jpg?cb=1459437655)
 
 * Rezpe
 
 > if it is Turing complete, let’s port python onto it.
 
-![](https://www.gravatar.com/avatar/d891a93985bae7576f011cbf434197d0?s=128&d=identicon&r=PG)
+![Oberron](https://www.gravatar.com/avatar/d891a93985bae7576f011cbf434197d0?s=128&d=identicon&r=PG)
 
 * Oberron
 
