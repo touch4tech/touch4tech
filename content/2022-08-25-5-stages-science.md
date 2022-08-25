@@ -1,4 +1,5 @@
 ---
+date:2022-08-25
 title: 5 stages of science
 categories: idea
 tags: video
@@ -7,7 +8,7 @@ authors: Oberron
 
 # 5 stages of science
 
-> From stone age to AI
+> From stones to emulation
 
 ---
 
