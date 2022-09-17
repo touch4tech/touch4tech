@@ -12,11 +12,8 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name : setup notion key
-        with: # Set the secret as an input
-          NotionKey: ${{ secrets.NotionKey }}
         env: # Or as an environment variable
           NotionKey: ${{ secrets.NotionKey }}
-      - name: check notion key
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
