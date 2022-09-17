@@ -17,9 +17,9 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          if: ${{ env.NotionKey != '' }}
+          if: env.NotionKey != ''
           steps:
-            - run: echo "This command is executed if AWS_ACCESS_KEY_ID secret IS NOT empty"
+            - run: python notion2md.py
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout website source
         id: checkout-master
