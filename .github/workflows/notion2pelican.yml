@@ -16,6 +16,7 @@ jobs:
           NotionKey: ${{ secrets.NotionKey }}
         env: # Or as an environment variable
           NotionKey: ${{ secrets.NotionKey }}
+      - name: check notion key
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
