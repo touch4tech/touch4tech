@@ -17,7 +17,9 @@ jobs:
         env: # Or as an environment variable
           NotionKey: ${{ secrets.NotionKey }}
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
+      - name: Checkout website source
+        id: checkout-master
+        uses: actions/checkout@v3
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
