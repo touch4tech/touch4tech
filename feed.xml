@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>French-Touch.dev</title><link href="https://frenchtouch.dev/" rel="alternate"></link><link href="https://frenchtouch.dev/feed.xml" rel="self"></link><id>https://frenchtouch.dev/</id><updated>2022-10-21T00:00:00+02:00</updated><entry><title>the duck and the peacock</title><link href="https://frenchtouch.dev/the-duck-and-the-peacock.html" rel="alternate"></link><published>2022-10-21T00:00:00+02:00</published><updated>2022-10-21T00:00:00+02:00</updated><author><name>Rezpe &amp; Oberron</name></author><id>tag:frenchtouch.dev,2022-10-21:/the-duck-and-the-peacock.html</id><summary type="html">&lt;h1&gt;The duck and the peacock&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>French-Touch.dev</title><link href="https://frenchtouch.dev/" rel="alternate"></link><link href="https://frenchtouch.dev/feed.xml" rel="self"></link><id>https://frenchtouch.dev/</id><updated>2022-10-21T00:00:00+02:00</updated><entry><title>notion2md</title><link href="https://frenchtouch.dev/notion2md.html" rel="alternate"></link><published>2022-10-21T00:00:00+02:00</published><updated>2022-10-21T00:00:00+02:00</updated><author><name>Rezpe &amp; Oberron</name></author><id>tag:frenchtouch.dev,2022-10-21:/notion2md.html</id><content type="html">&lt;h1&gt;Notion to .md&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;a simple &lt;a href="https://gist.github.com/oberron/28939ddb1fd4ea4721475cf2edf474e8"&gt;gist&lt;/a&gt; to convert notion pages to markdown&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;https://gist.github.com/oberron/28939ddb1fd4ea4721475cf2edf474e8&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;a simple github action clones the gist and uses it to create markdown files&lt;/li&gt;
+&lt;/ol&gt;</content><category term="misc"></category></entry><entry><title>the duck and the peacock</title><link href="https://frenchtouch.dev/the-duck-and-the-peacock.html" rel="alternate"></link><published>2022-10-21T00:00:00+02:00</published><updated>2022-10-21T00:00:00+02:00</updated><author><name>Rezpe &amp; Oberron</name></author><id>tag:frenchtouch.dev,2022-10-21:/the-duck-and-the-peacock.html</id><summary type="html">&lt;h1&gt;The duck and the peacock&lt;/h1&gt;
 &lt;p&gt;The duck swims actively underwater - unseen - to seemingly stay in place
 The peacock are selected for the largest and most visible tail&lt;/p&gt;
 &lt;h2&gt;The duck&lt;/h2&gt;
