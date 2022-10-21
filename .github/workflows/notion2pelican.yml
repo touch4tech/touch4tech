@@ -17,7 +17,7 @@ jobs:
       - name : setup notion key
         env: # Or as an environment variable
           NotionKey: ${{ secrets.NOTIONKEY }}
-        run: python notion2md.py
+        run: python importnotion.py
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
 
 
