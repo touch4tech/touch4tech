@@ -22,6 +22,7 @@ from notion2md import get_notion_headers, pageid_2_md
 FT_dbid = 'af9dd2942ef74d7c9faf32e694055a7e'
 my_secret = environ["NotionKey"]
 headers = get_notion_headers(my_secret)
+print("headers",headers)
 res = readDatabase(databaseId=FT_dbid, notion_headers=headers)
 res2 = process_page_results(res, headers)
 
