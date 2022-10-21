@@ -1,6 +1,5 @@
 import subprocess
-from notion2md import readDatabase, process_page_results
-from notion2md import get_notion_headers, pageid_2_md
+
 
 gist = "28939ddb1fd4ea4721475cf2edf474e8"
 gist_url = f"https://gist.github.com/{gist}.git"
@@ -11,6 +10,9 @@ output = subprocess.call(["mv",f"{gist}/notion2md.py","./notion2md.py"])
 if not output==0:
   print(f"mv error code: {output}")
 
+from notion2md import readDatabase, process_page_results
+from notion2md import get_notion_headers, pageid_2_md
+  
 # notion db id for frenchtouch.dev is:
 FT_dbid = 'af9dd2942ef74d7c9faf32e694055a7e'
 # get the GitHub secret which has the Notion Key
