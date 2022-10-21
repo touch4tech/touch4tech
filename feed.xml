@@ -1,12 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>French-Touch.dev</title><link href="https://frenchtouch.dev/" rel="alternate"></link><link href="https://frenchtouch.dev/feed.xml" rel="self"></link><id>https://frenchtouch.dev/</id><updated>2022-10-21T00:00:00+02:00</updated><entry><title>notion2md</title><link href="https://frenchtouch.dev/notion2md.html" rel="alternate"></link><published>2022-10-21T00:00:00+02:00</published><updated>2022-10-21T00:00:00+02:00</updated><author><name>Rezpe &amp; Oberron</name></author><id>tag:frenchtouch.dev,2022-10-21:/notion2md.html</id><content type="html">&lt;h1&gt;Notion to .md&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>French-Touch.dev</title><link href="https://frenchtouch.dev/" rel="alternate"></link><link href="https://frenchtouch.dev/feed.xml" rel="self"></link><id>https://frenchtouch.dev/</id><updated>2022-10-21T00:00:00+02:00</updated><entry><title>notion2md</title><link href="https://frenchtouch.dev/notion2md.html" rel="alternate"></link><published>2022-10-21T00:00:00+02:00</published><updated>2022-10-21T00:00:00+02:00</updated><author><name>Rezpe &amp; Oberron</name></author><id>tag:frenchtouch.dev,2022-10-21:/notion2md.html</id><summary type="html">&lt;h1&gt;Notion to .md&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;a simple &lt;a href="https://gist.github.com/oberron/28939ddb1fd4ea4721475cf2edf474e8"&gt;gist&lt;/a&gt; to convert notion pages to markdown&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;https://gist.github.com/oberron/28939ddb1fd4ea4721475cf2edf474e8&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;a simple github action clones the gist and uses it to create markdown files&lt;/li&gt;
-&lt;/ol&gt;</content><category term="misc"></category></entry><entry><title>the duck and the peacock</title><link href="https://frenchtouch.dev/the-duck-and-the-peacock.html" rel="alternate"></link><published>2022-10-21T00:00:00+02:00</published><updated>2022-10-21T00:00:00+02:00</updated><author><name>Rezpe &amp; Oberron</name></author><id>tag:frenchtouch.dev,2022-10-21:/the-duck-and-the-peacock.html</id><summary type="html">&lt;h1&gt;The duck and the peacock&lt;/h1&gt;
+&lt;/ol&gt;
+&lt;p&gt;source: frenchtouch/.github/workflows/notion2pelican.yml&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nt"&gt;name&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;Notion2Pelican&lt;/span&gt;
+&lt;span class="c1"&gt;# Controls when the workflow will run&lt;/span&gt;
+&lt;span class="nt"&gt;on&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+  &lt;span class="c1"&gt;# Allows you to …&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;h1&gt;Notion to .md&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;a simple &lt;a href="https://gist.github.com/oberron/28939ddb1fd4ea4721475cf2edf474e8"&gt;gist&lt;/a&gt; to convert notion pages to markdown&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;https://gist.github.com/oberron/28939ddb1fd4ea4721475cf2edf474e8&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;a simple github action clones the gist and uses it to create markdown files&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;source: frenchtouch/.github/workflows/notion2pelican.yml&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nt"&gt;name&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;Notion2Pelican&lt;/span&gt;
+&lt;span class="c1"&gt;# Controls when the workflow will run&lt;/span&gt;
+&lt;span class="nt"&gt;on&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+  &lt;span class="c1"&gt;# Allows you to run this workflow manually from the Actions tab&lt;/span&gt;
+  &lt;span class="nt"&gt;workflow_dispatch&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+&lt;span class="c1"&gt;# A workflow run is made up of one or more jobs that can run sequentially or in parallel&lt;/span&gt;
+&lt;span class="nt"&gt;jobs&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+  &lt;span class="c1"&gt;# This workflow contains a single job called &amp;quot;build&amp;quot;&lt;/span&gt;
+  &lt;span class="nt"&gt;sync_notion&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="c1"&gt;# The type of runner that the job will run on&lt;/span&gt;
+    &lt;span class="nt"&gt;runs-on&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;ubuntu-latest&lt;/span&gt;
+    &lt;span class="c1"&gt;# Steps represent a sequence of tasks that will be executed as part of the job&lt;/span&gt;
+    &lt;span class="nt"&gt;environment&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;env&lt;/span&gt;  &lt;span class="c1"&gt;# THIS WAS MISSING&lt;/span&gt;
+    &lt;span class="nt"&gt;steps&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+      &lt;span class="p p-Indicator"&gt;-&lt;/span&gt; &lt;span class="nt"&gt;name&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;Checkout website source&lt;/span&gt;
+        &lt;span class="nt"&gt;id&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;checkout-master&lt;/span&gt;
+        &lt;span class="nt"&gt;uses&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;actions/checkout@v3&lt;/span&gt;
+      &lt;span class="p p-Indicator"&gt;-&lt;/span&gt; &lt;span class="nt"&gt;name &lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;setup notion key&lt;/span&gt;
+        &lt;span class="nt"&gt;env&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="c1"&gt;# Or as an environment variable&lt;/span&gt;
+          &lt;span class="nt"&gt;NOTIONKEY&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;${{ secrets.NOTIONKEY }}&lt;/span&gt;
+        &lt;span class="nt"&gt;run&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;python importnotion.py&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;a wrapper file importnotion.py&lt;/p&gt;
+&lt;p&gt;frenchtouch/importnotion.py&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;subprocess&lt;/span&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;os&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;environ&lt;/span&gt;
+
+&lt;span class="n"&gt;gist&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;28939ddb1fd4ea4721475cf2edf474e8&amp;quot;&lt;/span&gt;
+&lt;span class="n"&gt;gist_url&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="sa"&gt;f&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;https://gist.github.com/&lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="n"&gt;gist&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;.git&amp;quot;&lt;/span&gt;
+&lt;span class="n"&gt;output&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;subprocess&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;call&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;git&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;clone&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;gist_url&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+&lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="n"&gt;output&lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+  &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sa"&gt;f&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;gist error code: &lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="n"&gt;output&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;output&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;subprocess&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;call&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;mv&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="sa"&gt;f&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="n"&gt;gist&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;/notion2md.py&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;./notion2md.py&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+&lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="n"&gt;output&lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+  &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sa"&gt;f&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;mv error code: &lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="n"&gt;output&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;notion2md&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;readDatabase&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;process_page_results&lt;/span&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;notion2md&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;get_notion_headers&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;pageid_2_md&lt;/span&gt;
+
+&lt;span class="c1"&gt;# notion db id for frenchtouch.dev is:&lt;/span&gt;
+&lt;span class="n"&gt;FT_dbid&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;af9dd2942ef74d7c9faf32e694055a7e&amp;#39;&lt;/span&gt;
+&lt;span class="c1"&gt;# get the GitHub secret which has the Notion Key&lt;/span&gt;
+&lt;span class="n"&gt;my_secret&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;environ&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;NOTIONKEY&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;headers&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;get_notion_headers&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;my_secret&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;headers&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;headers&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;res&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;readDatabase&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;databaseId&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;FT_dbid&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;notion_headers&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;headers&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;res2&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;process_page_results&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;res&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;headers&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="n"&gt;res_t&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;readDatabase&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;databaseId&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;res2&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;page_children_ids&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;][&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="n"&gt;notion_headers&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;headers&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;md&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;pageid_2_md&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;res_t&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;headers&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;md&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="misc"></category></entry><entry><title>the duck and the peacock</title><link href="https://frenchtouch.dev/the-duck-and-the-peacock.html" rel="alternate"></link><published>2022-10-21T00:00:00+02:00</published><updated>2022-10-21T00:00:00+02:00</updated><author><name>Rezpe &amp; Oberron</name></author><id>tag:frenchtouch.dev,2022-10-21:/the-duck-and-the-peacock.html</id><summary type="html">&lt;h1&gt;The duck and the peacock&lt;/h1&gt;
 &lt;p&gt;The duck swims actively underwater - unseen - to seemingly stay in place
 The peacock are selected for the largest and most visible tail&lt;/p&gt;
 &lt;h2&gt;The duck&lt;/h2&gt;

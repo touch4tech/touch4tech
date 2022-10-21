@@ -101,6 +101,60 @@
 <ol>
 <li>a simple github action clones the gist and uses it to create markdown files</li>
 </ol>
+<p>source: frenchtouch/.github/workflows/notion2pelican.yml</p>
+<div class="highlight"><pre><span></span><code><span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Notion2Pelican</span>
+<span class="c1"># Controls when the workflow will run</span>
+<span class="nt">on</span><span class="p">:</span>
+  <span class="c1"># Allows you to run this workflow manually from the Actions tab</span>
+  <span class="nt">workflow_dispatch</span><span class="p">:</span>
+<span class="c1"># A workflow run is made up of one or more jobs that can run sequentially or in parallel</span>
+<span class="nt">jobs</span><span class="p">:</span>
+  <span class="c1"># This workflow contains a single job called &quot;build&quot;</span>
+  <span class="nt">sync_notion</span><span class="p">:</span>
+    <span class="c1"># The type of runner that the job will run on</span>
+    <span class="nt">runs-on</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">ubuntu-latest</span>
+    <span class="c1"># Steps represent a sequence of tasks that will be executed as part of the job</span>
+    <span class="nt">environment</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">env</span>  <span class="c1"># THIS WAS MISSING</span>
+    <span class="nt">steps</span><span class="p">:</span>
+      <span class="p p-Indicator">-</span> <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Checkout website source</span>
+        <span class="nt">id</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">checkout-master</span>
+        <span class="nt">uses</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">actions/checkout@v3</span>
+      <span class="p p-Indicator">-</span> <span class="nt">name </span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">setup notion key</span>
+        <span class="nt">env</span><span class="p">:</span> <span class="c1"># Or as an environment variable</span>
+          <span class="nt">NOTIONKEY</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">${{ secrets.NOTIONKEY }}</span>
+        <span class="nt">run</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">python importnotion.py</span>
+</code></pre></div>
+
+<p>a wrapper file importnotion.py</p>
+<p>frenchtouch/importnotion.py</p>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">subprocess</span>
+<span class="kn">from</span> <span class="nn">os</span> <span class="kn">import</span> <span class="n">environ</span>
+
+<span class="n">gist</span> <span class="o">=</span> <span class="s2">&quot;28939ddb1fd4ea4721475cf2edf474e8&quot;</span>
+<span class="n">gist_url</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;https://gist.github.com/</span><span class="si">{</span><span class="n">gist</span><span class="si">}</span><span class="s2">.git&quot;</span>
+<span class="n">output</span> <span class="o">=</span> <span class="n">subprocess</span><span class="o">.</span><span class="n">call</span><span class="p">([</span><span class="s2">&quot;git&quot;</span><span class="p">,</span> <span class="s2">&quot;clone&quot;</span><span class="p">,</span> <span class="n">gist_url</span><span class="p">])</span>
+<span class="k">if</span> <span class="ow">not</span> <span class="n">output</span><span class="o">==</span><span class="mi">0</span><span class="p">:</span>
+  <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;gist error code: </span><span class="si">{</span><span class="n">output</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="n">output</span> <span class="o">=</span> <span class="n">subprocess</span><span class="o">.</span><span class="n">call</span><span class="p">([</span><span class="s2">&quot;mv&quot;</span><span class="p">,</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">gist</span><span class="si">}</span><span class="s2">/notion2md.py&quot;</span><span class="p">,</span><span class="s2">&quot;./notion2md.py&quot;</span><span class="p">])</span>
+<span class="k">if</span> <span class="ow">not</span> <span class="n">output</span><span class="o">==</span><span class="mi">0</span><span class="p">:</span>
+  <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;mv error code: </span><span class="si">{</span><span class="n">output</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+
+<span class="kn">from</span> <span class="nn">notion2md</span> <span class="kn">import</span> <span class="n">readDatabase</span><span class="p">,</span> <span class="n">process_page_results</span>
+<span class="kn">from</span> <span class="nn">notion2md</span> <span class="kn">import</span> <span class="n">get_notion_headers</span><span class="p">,</span> <span class="n">pageid_2_md</span>
+
+<span class="c1"># notion db id for frenchtouch.dev is:</span>
+<span class="n">FT_dbid</span> <span class="o">=</span> <span class="s1">&#39;af9dd2942ef74d7c9faf32e694055a7e&#39;</span>
+<span class="c1"># get the GitHub secret which has the Notion Key</span>
+<span class="n">my_secret</span> <span class="o">=</span> <span class="n">environ</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;NOTIONKEY&quot;</span><span class="p">)</span>
+<span class="n">headers</span> <span class="o">=</span> <span class="n">get_notion_headers</span><span class="p">(</span><span class="n">my_secret</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;headers&quot;</span><span class="p">,</span><span class="n">headers</span><span class="p">)</span>
+<span class="n">res</span> <span class="o">=</span> <span class="n">readDatabase</span><span class="p">(</span><span class="n">databaseId</span><span class="o">=</span><span class="n">FT_dbid</span><span class="p">,</span> <span class="n">notion_headers</span><span class="o">=</span><span class="n">headers</span><span class="p">)</span>
+<span class="n">res2</span> <span class="o">=</span> <span class="n">process_page_results</span><span class="p">(</span><span class="n">res</span><span class="p">,</span> <span class="n">headers</span><span class="p">)</span>
+
+<span class="n">res_t</span> <span class="o">=</span> <span class="n">readDatabase</span><span class="p">(</span><span class="n">databaseId</span><span class="o">=</span><span class="n">res2</span><span class="p">[</span><span class="s2">&quot;page_children_ids&quot;</span><span class="p">][</span><span class="mi">1</span><span class="p">],</span> <span class="n">notion_headers</span><span class="o">=</span><span class="n">headers</span><span class="p">)</span>
+<span class="n">md</span> <span class="o">=</span> <span class="n">pageid_2_md</span><span class="p">(</span><span class="n">res_t</span><span class="p">,</span> <span class="n">headers</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">md</span><span class="p">)</span>
+</code></pre></div>
 
     <!-- Bootstrap core JavaScript -->
     <!-- Placed at the end of the document so the pages load faster -->
