@@ -49,11 +49,11 @@ CONTACTS = [
     ("Twitter", "twitter", "https://twitter.com/frenchtouchdev"),
     ("YouTube","youtube","https://www.youtube.com/channel/UCZSY9oLHkUV_3cm8ZCnOAIw"),
     ("tiktok","tiktok","https://www.tiktok.com/@frenchtouchdev"),
-    ("Facebook", "facebook-f", "https://facebook.com/theanalogfox"),
+    ("Facebook", "facebook-f", "facebook.com/frenchtouch.dev"),
     ("GitHub","github","https://github.com/french-touch/frenchtouch"),
     ("Podcast","podcast","https://feeds.soundcloud.com/users/soundcloud:users:404637861/sounds.rss"),
-    ("Instagram", "instagram", "https://www.instagram.com/theanalogfox/"),
-    ("Email", "envelope", "one.annum@gmail.com"),
+    ("Instagram", "instagram", "https://www.instagram.com/frenchtouch.dev/"),
+    ("Email", "envelope", "tellme@frenchtouch.dev"),
 ]
 
 DEFAULT_PAGINATION = 10
