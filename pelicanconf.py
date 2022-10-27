@@ -53,7 +53,7 @@ CONTACTS = [
     ("GitHub","github","https://github.com/french-touch/frenchtouch"),
     ("Podcast","podcast","https://feeds.soundcloud.com/users/soundcloud:users:404637861/sounds.rss"),
     ("Instagram", "instagram", "https://www.instagram.com/frenchtouch.dev/"),
-    ("Email", "envelope", "tellme@frenchtouch.dev"),
+    ("Email", "envelope", "mailto:tellme@frenchtouch.dev"),
 ]
 
 DEFAULT_PAGINATION = 10
