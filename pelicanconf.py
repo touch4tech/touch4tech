@@ -47,7 +47,7 @@ SOCIAL = (('You can add links in your config file', '#'),
 
 CONTACTS = [
     ("Twitter", "twitter", "https://twitter.com/frenchtouchdev"),
-    ("YouTube","youtube","https://www.youtube.com/channel/UCZSY9oLHkUV_3cm8ZCnOAIw"),
+    ("YouTube","youtube","https://www.youtube.com/@frenchtouchdev"),
     ("tiktok","tiktok","https://www.tiktok.com/@frenchtouchdev"),
     ("Facebook", "facebook-f", "https://www.facebook.com/frenchtouch.dev"),
     ("GitHub","github","https://github.com/french-touch/frenchtouch"),
