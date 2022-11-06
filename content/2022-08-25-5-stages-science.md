@@ -1,5 +1,5 @@
 ---
-date:2022-08-25
+date: 2022-08-25
 title: 5 stages of science
 categories: idea
 tags: video

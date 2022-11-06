@@ -9,7 +9,11 @@ authors: Rezpe
 
 We know some old cliches: the accent, the cuisine, the glamour (as shown in the french bashing documentary). It is an abstract concept that is difficult to describe. We can start perhaps to grasp this concept by listing some well known french actors in the world.
 
-In the dance music industry, the french touch is a very influencial EDM (Euro Dance Music) type of music, known for “its characteristics which include disco samples, robotic vocals and heavy filter and phaser effects”. Those were very successful in the 90’s but now they are showing their aging.
+In the dance music industry, the french touch is a very influencial EDM (Euro Dance Music) type of music, known for 
+
+> its characteristics which include disco samples, robotic vocals and heavy filter and phaser effects. 
+
+Those were very successful in the 90’s but now they are showing their aging.
 
 In the videogame industry, Ubisoft is a well established brands with a very unique graphical and story-telling style. They are the creators of series like Assasin’s Creed or Far Cry, that were very original at the time and put Ubisoft in the list of AAA games developper. However, they have not innovated since then, which can be seen in the opinion of some gamers.
 
