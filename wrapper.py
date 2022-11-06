@@ -1,6 +1,6 @@
 import pkg_resources
-from os.path import abspath,join,pardir
-from os import walk
+from os.path import abspath, isdir, join,pardir
+from os import mkdir, walk
 import sys
 import subprocess
 import yaml
@@ -61,6 +61,8 @@ def pre_pelican(dp_content,theme,dp_www):
     2. TBD
     """
     check_venv()
+    if not isdir(dp_www):
+        mkdir(dp_www)
     list_drafts(dp_content,theme,dp_www)
     
 def post_pelican(dp_content,theme,dp_www, pelican_results):
