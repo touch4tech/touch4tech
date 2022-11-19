@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>French-Touch.dev</title><link href="https://frenchtouch.dev/" rel="alternate"></link><link href="https://frenchtouch.dev/feed.xml" rel="self"></link><id>https://frenchtouch.dev/</id><updated>2022-10-21T00:00:00+02:00</updated><entry><title>notion2md</title><link href="https://frenchtouch.dev/notion2md.html" rel="alternate"></link><published>2022-10-21T00:00:00+02:00</published><updated>2022-10-21T00:00:00+02:00</updated><author><name>Rezpe &amp; Oberron</name></author><id>tag:frenchtouch.dev,2022-10-21:/notion2md.html</id><summary type="html">&lt;h1&gt;Notion to .md&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>French-Touch.dev</title><link href="https://frenchtouch.dev/" rel="alternate"></link><link href="https://frenchtouch.dev/feed.xml" rel="self"></link><id>https://frenchtouch.dev/</id><updated>2022-11-19T00:00:00+01:00</updated><entry><title>Convexity</title><link href="https://frenchtouch.dev/convexity.html" rel="alternate"></link><published>2022-11-19T00:00:00+01:00</published><updated>2022-11-19T00:00:00+01:00</updated><author><name>Rezpe &amp; Oberron</name></author><id>tag:frenchtouch.dev,2022-11-19:/convexity.html</id><summary type="html">&lt;p&gt;Convexity means gain well if things go well, but don’t lose that much if it goes poorly. The opposite is concavity, where you lose a lot if things go bad, and don’t really gain that much if it goes great.&lt;/p&gt;</summary><content type="html">&lt;ul&gt;
+&lt;li&gt;https://www.edge.org/conversation/nassim_nicholas_taleb-understanding-is-a-poor-substitute-for-convexity-antifragility&lt;/li&gt;
+&lt;li&gt;https://fooledbyrandomness.com/ConvexityScience.pdf&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1&gt;Convexity&lt;/h1&gt;
+&lt;p&gt;Convexity means gain well if things go well, but don’t lose that much if it goes poorly. 
+The opposite is concavity, where you lose a lot if things go bad, and don’t really gain that much if it goes great.&lt;/p&gt;</content><category term="misc"></category></entry><entry><title>notion2md</title><link href="https://frenchtouch.dev/notion2md.html" rel="alternate"></link><published>2022-10-21T00:00:00+02:00</published><updated>2022-10-21T00:00:00+02:00</updated><author><name>Rezpe &amp; Oberron</name></author><id>tag:frenchtouch.dev,2022-10-21:/notion2md.html</id><summary type="html">&lt;h1&gt;Notion to .md&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;a simple &lt;a href="https://gist.github.com/oberron/28939ddb1fd4ea4721475cf2edf474e8"&gt;gist&lt;/a&gt; to convert notion pages to markdown&lt;/li&gt;
 &lt;/ol&gt;
