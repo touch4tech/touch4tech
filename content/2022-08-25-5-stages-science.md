@@ -24,7 +24,7 @@ authors: Oberron
 
 ## Observations
 
-![](https://upload.wikimedia.org/wikipedia/commons/0/0f/Stonehenge%2C_Salisbury_retouched.jpg)
+![Stonehenge an early artefact](https://upload.wikimedia.org/wikipedia/commons/0/0f/Stonehenge%2C_Salisbury_retouched.jpg)
 
 For millenia, humans observed the world and built artifacts to help predictions of seasons.
 

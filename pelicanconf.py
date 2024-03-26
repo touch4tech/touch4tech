@@ -1,33 +1,52 @@
+# These are the setting for the local machine
+# as opposed to publishconf which is for the remote machine
+
 from os.path import abspath,join
 AUTHOR = 'Rezpe & Oberron'
-SITENAME = "French-Touch.dev"
-SITEABOUT = "One brick at a time contributing to the DKIW pyramid fundation"
-SITEURL = 'https://frenchtouch.dev'
+SITENAME = 'Touch 4 Tech'
+SITEURL = 'http://localhost:8000'
+SITE_LOGO = "site_logo.png"
+ABOUT = "One brick at a time contributing to the DKIW pyramid fundation"
 
-print(20,"test",SITEURL)
+RELATIVE_URLS = False
+SITEMAP = { "format": "xml"}
 
+
+DELETE_OUTPUT_DIRECTORY = False
 
 PATH = 'content'
-STATIC_PATHS = ["img","webvtt"]
+STATIC_PATHS = ["static/img", "static/webvtt"]
 OUTPUT_PATH = 'public'
-PLUGINS = ['sitemap', 'pelican-ipynb.markup']
+# PLUGINS = ['sitemap', 'pelican-ipynb.markup']
+PLUGINS = ['sitemap']
+# remove , 'pelican-jupyter' as obsolete, replaced by manual calls to pandoc
+# 'more_categories' allows more than 1 category
+# https://github.com/pelican-plugins/more-categories/blob/master/example/pelicanconf.py
+# pip install pelican-more-categories
+PLUGINS.append('more_categories')
 
 
 TIMEZONE = 'Europe/Rome'
 
 DEFAULT_LANG = 'en'
-MARKUP = ('md', )
-from pelican_jupyter import liquid as nb_liquid
-PLUGINS = [nb_liquid]
 
-IGNORE_FILES = [".ipynb_checkpoints"]
+# BOILER PLATE for PELICAN-JUPYTER
+# from :
+# https://github.com/danielfrg/pelican-jupyter
+
+MARKUP = ('md', )
+
+# IGNORE_FILES = [".ipynb_checkpoints"]
+
+# END OF BOILER PLATE for PELICAN-JUPYTER
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = "feed.xml" #MCV changed for testing
 #FEED_ALL_ATOM = None
 RSS_FEED_SUMMARY_ONLY = False
+# FEED_DOMAIN = ":8000"
 FEED_RSS_URL = True
-FEED_MAX_ITEMS = 100
+FEED_MAX_ITEMS = 500
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
@@ -42,33 +61,17 @@ LINKS = (('Pelican', 'https://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
-
-CONTACTS = [
-    ("Twitter", "twitter", "https://twitter.com/frenchtouchdev"),
-    ("YouTube","youtube","https://www.youtube.com/@frenchtouchdev"),
-    ("tiktok","tiktok","https://www.tiktok.com/@frenchtouchdev"),
-    ("Facebook", "facebook-f", "https://www.facebook.com/frenchtouch.dev"),
-    ("GitHub","github","https://github.com/french-touch/frenchtouch"),
-    ("Podcast","podcast","https://feeds.soundcloud.com/users/soundcloud:users:404637861/sounds.rss"),
-    ("Instagram", "instagram", "https://www.instagram.com/frenchtouch.dev/"),
-    ("Email", "envelope", "mailto:tellme@frenchtouch.dev"),
-]
+SOCIAL = (('Twitter', 'twitter', 'Twitter.com'),
+          ('Youtube', 'youtube', 'https://www.youtube.com/@frenchtouchdev'),
+          ('tiktok','tiktok','https://www.tiktok.com/@frenchtouchdev'),
+          ('Facebook','facebook-f','https://www.facebook.com/frenchtouch.dev'),
+          ('GitHub','github','https://github.com/french-touch/frenchtouch'),
+          ("Podcast",'podcast',"https://feeds.soundcloud.com/users/soundcloud:users:404637861/sounds.rss"),
+          ("Instagram", "instagram","https://www.instagram.com/frenchtouch.dev/"),
+          ("Mail","envelope","mailto:tellme@frenchtouch.dev"))
 
 DEFAULT_PAGINATION = 10
 
-"""
-def csv(content, *args):
-    fp = abspath(join("D:/Git/admin.git/content/static/csv/","test.csv"))
-    with open(fp,'r') as fi:
-        csv_data = fi.read()
-    return csv_data
-
-JINJA_FILTERS = {
-    'csv': csv,
-}
-"""
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True

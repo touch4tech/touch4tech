@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-author: Oberron
+author: Oberron, Sebas
 ---
 
 [FrenchTouch.dev](http://frenchtouch.dev) is about discussing the specifics of the `french-touch`. 
@@ -14,4 +14,4 @@ As it can be seen in Eric Meyer's book, or from the online diagrams available fr
 
 We believe bringing this nuance look to tech, can add a new dimension to discussions about tech and starting this blog.
 
-![The culture map Erin Meyer](img/the-culture-map-Erin-Meyer-France-Middle.png)
+![The culture map Erin Meyer](./static/img/the-culture-map-Erin-Meyer-France-Middle.png)

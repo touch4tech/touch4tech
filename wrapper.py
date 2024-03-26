@@ -1,3 +1,4 @@
+import argparse
 import pkg_resources
 from os.path import abspath, isdir, join,pardir
 from os import mkdir, walk
@@ -8,6 +9,7 @@ import yaml
 
 gist_folder = abspath(join(__file__,pardir,"content","gist"))
 www_folder = abspath(join(__file__,pardir,"www_folder"))
+dp_theme = abspath(join(__file__,pardir,"static"))
 sys.path.insert(1, gist_folder)
 
 def check_venv(test_requirements=True):
@@ -31,11 +33,16 @@ def list_drafts(dp_content,theme,dp_www):
     for root, folders, files in walk(dp_content):
         for f in files:
             if f.find(".md") >=0:
-                fp = abspath(join(root, f))
-                with open(fp, encoding="utf-8") as fi:
-                    fc = fi.read()
-                yaml_header = fc.split("---")[1]
-                yaml_header = yaml.safe_load(yaml_header)
+                try:
+                    fp = abspath(join(root, f))
+                    with open(fp, encoding="utf-8") as fi:
+                        fc = fi.read()
+                    yaml_header = fc.split("---")[1]
+                    yaml_header = yaml.safe_load(yaml_header)
+                except Exception as ex:
+                    log_msg = f"{str(ex)} for fp: {fp}"
+                    print(log_msg)
+                    raise
                 if "status" in yaml_header:
                     if yaml_header["status"]=="draft":
                         url = "drafts/" + quote(yaml_header["title"].replace(" ","-")) + ".html"
@@ -43,7 +50,8 @@ def list_drafts(dp_content,theme,dp_www):
                                                     "date": yaml_header["date"],
                                                     "url": url}
                                                   )
-    dp_j2templates = abspath(join(theme, "templates")) #, 'draft_index.j2'))
+    dp_j2templates = abspath(join(dp_theme, theme, "templates")) #, 'draft_index.j2'))
+    print(53,"**********", dp_j2templates)
     # conf = {"articles":[{"title":"test1","date":"2023-01-01","title":"test title"}]}
     from jinja2 import Environment, FileSystemLoader, Template
     env = Environment(loader=FileSystemLoader(dp_j2templates))
@@ -98,13 +106,28 @@ def pelican_wrapper(dp_content, theme, dp_www, test_requirements=False):
                 run_pelican=False
         
     if run_pelican:
-        result = subprocess.run(["pelican","content","-t","theme","-o",www_folder], capture_output=True, text=True)
+        result = subprocess.run(["pelican","content","-t","static/theme","-o",www_folder], capture_output=True, text=True)
     return result
     
 if __name__=="__main__":
-    dp_content = "content"
-    dp_www = www_folder
-    theme = "theme"
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-s", "--staging",
+                        help="build staging and deploy it",
+                        action="store_true")    
+    parser.add_argument("-l", "--local",
+                        help="build site locally",
+                        action="store_true")
+    args = parser.parse_args()
+    if args.local or args.staging:
+        pass
+    else:
+        print("SELECT AN OPTION !!!")
+    if args.local:
+        print("BUILD DEV LOCALLY")
+        dp_content = "content"
+        dp_www = www_folder
+        theme = "theme"
+
     pre_pelican(dp_content, theme, dp_www)
     pelican_results = pelican_wrapper(dp_content, theme, dp_www, test_requirements=True)
     post_pelican(dp_content, theme, dp_www, pelican_results)

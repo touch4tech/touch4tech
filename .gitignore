@@ -1,3 +1,9 @@
+.env
+venv/
+db.json
+28939ddb1fd4ea4721475cf2edf474e8/
+notion2md.py
+*.py0
 _site
 www_folder
 .jekyll-cache
