@@ -3,6 +3,7 @@ date: 2022-08-25
 title: Big Numbers
 categories: idea
 tags: video
+status: draft
 authors: Oberron
 ---
 

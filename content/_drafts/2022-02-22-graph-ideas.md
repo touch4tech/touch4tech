@@ -1,6 +1,7 @@
 ---
 date: 2022-02-22
 title: exploring graphs of ideas
+status: draft
 ---
 
 markdown plugin which allows to link ideas from other sources in context

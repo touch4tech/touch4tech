@@ -1,4 +1,5 @@
 .env
+tmp/
 venv/
 db.json
 28939ddb1fd4ea4721475cf2edf474e8/

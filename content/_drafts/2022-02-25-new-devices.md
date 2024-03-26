@@ -1,7 +1,9 @@
 ---
 layout: post
+date: 2022-02-25
 title: xR new devices
 author: Sebas
+status: draft
 ---
 
 VR and AR will introduce new input devices
