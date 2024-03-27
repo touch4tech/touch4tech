@@ -52,12 +52,10 @@
     <div class="container">
       <div class="col-sm-3">
         <div class="fixed-condition">
-          <a href=""><img class="profile-avatar" src="/theme/img/site_logo.png" height="75px" width="75px" /></a>
-          <h1 class="author-name"></h1>
+          <a href=""><img class="profile-avatar" src="/theme/img/" height="75px" width="75px" /></a>
+          <h1 class="site-name"></h1>
           
-            <div class="profile-about">
-              
-            </div>
+            <div class="profile-about"></div>
           
           <div class="social">
             <ul class="icons">
@@ -74,10 +72,7 @@
             <strong>Navigation</strong>
             <li><a href="/">Home</a></li>
             
-              <li><a class="about" href="/pages/about.html">About</a></li>
-              <li><a class="about" href="/pages/authors.html">Authors</a></li>
-            
-              <li><a class="about" href="/feed.xml">XML Feed</a></li>
+            <li><a class="about" href="/feed.xml">XML Feed</a></li>
             
           </ul>
         </div>
@@ -85,40 +80,28 @@
       </div>
       <div class="col-sm-8 col-offset-1 main-layout">
       
-      
-  
-      
-<div id="home">
-  <h1></h1>
-    
-  <hr />
-
-  <ol class="posts">
-    
-      <li><a href="/drafts/draft-place-holder.html">draft place holder</a> &raquo; <i><span>2022-11-06</span></i></li>
-    
-  </ol>
-  </div><!-- end #home -->
-
 
     <!-- Bootstrap core JavaScript -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="/theme/js/jquery.min.js"></script>
+    <script src="/theme/js/jquery-migrate-1.2.1.min.js"></script>
     <script src="/theme/js/bootstrap.min.js"></script>
     <script src="/theme/js/super-search.js"></script>
     <script src="/theme/js/thickbox-compressed.js"></script>
     <script src="/theme/js/projects.js"></script>
-    
-    
-              <footer>
-          &copy; 
-          
-            - <a href=""></a> - Powered by Pelican.
-          
-
-        </footer>
-    
-    
+    <script type="text/x-mathjax-config">
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+        },
+        svg: {
+          fontCache: 'global'
+        }
+      };
+</script>
+<!-- mathjax 2.7.5 latest.js -->
+<script type="text/javascript" async
+  src="/theme/js/tex-svg.js">
+</script>
   </body>
 </html>

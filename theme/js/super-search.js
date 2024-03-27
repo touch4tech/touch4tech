@@ -137,7 +137,7 @@ baseurl = ".";
                 d = new Date(post.published);
                 //MCV: changing next line with one after to adjust for new sitemap.xml syntax
                 //return '<li><a href="' + post.link + '">' + post.title + '<span
-                return '<li><a href="' + post.id + '">' + post.title + '<span class="search__result-date">' + d.toUTCString().replace(/.*(\d{2})\s+(\w{3})\s+(\d{4}).*/,'$2 $1, $3') + '</span></a></li>';
+                return '<li><a href="' + post.link["@attributes"].href + '">' + post.title + '<span class="search__result-date">' + d.toUTCString().replace(/.*(\d{2})\s+(\w{3})\s+(\d{4}).*/,'$2 $1, $3') + '</span></a></li>';
             }).join('');
         }
         lastSearchResultHash = currentResultHash;
