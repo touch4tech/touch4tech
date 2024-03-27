@@ -10,8 +10,8 @@ import sys
 import subprocess
 import yaml
 
-from notion2md import readDatabase, page_tree_ids, replace_invalid_characters
-from notion2md import get_notion_headers, pageid_2_md
+from Notion2Pelican.Notion2Pelican import readDatabase, page_tree_ids
+from Notion2Pelican.Notion2Pelican import get_notion_headers, pageid_2_md
 
 
 gist_folder = abspath(join(__file__,pardir,"content","gist"))
@@ -115,7 +115,9 @@ def pull_notion():
                 with open(fp, 'w', encoding="utf-8") as fo:
                     fo.write(md)
 
-def pre_pelican(dp_content,theme,dp_www, rebuild_tmp = True):
+def pre_pelican(dp_content,theme,dp_www,
+                rebuild_tmp=True,
+                rebuild_notion=False):
     """ pelican wrapper, to be included here :
     1. check python dependancies
     2. generate index page for all draft pages
@@ -133,13 +135,14 @@ def pre_pelican(dp_content,theme,dp_www, rebuild_tmp = True):
     # 1. copy the content folder into the tmp folder
     
     dp_src = abspath(join(__file__,pardir,"content"))
-    print(82, dp_src, dp_tmp)
     if rebuild_tmp:
         copytree(dp_src, dp_tmp)
 
     # 2. add the notion pages
-    if rebuild_tmp:
+    if rebuild_notion:
         pull_notion()
+    else:
+        print("NOTION **NOT** updated")
 
 
     return dp_tmp
@@ -191,7 +194,11 @@ if __name__=="__main__":
     parser.add_argument("-l", "--local",
                         help="build site locally",
                         action="store_true")
+    parser.add_argument("-n", "--notion",
+                        help="update notion local cache",
+                        action="store_true")
     args = parser.parse_args()
+    print(args)
     if args.local or args.staging:
         pass
     else:
@@ -202,6 +209,6 @@ if __name__=="__main__":
         dp_www = www_folder
         theme = "theme"
 
-    dp_content_tmp = pre_pelican(dp_content, theme, dp_www)
+    dp_content_tmp = pre_pelican(dp_content, theme, dp_www, rebuild_notion=args.notion)
     pelican_results = pelican_wrapper(dp_content_tmp, theme, dp_www, test_requirements=True)
     post_pelican(dp_content, theme, dp_www, pelican_results)

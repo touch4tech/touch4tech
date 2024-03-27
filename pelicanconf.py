@@ -4,7 +4,12 @@
 from os.path import abspath,join
 AUTHOR = 'Rezpe & Oberron'
 SITENAME = 'Touch 4 Tech'
-SITEURL = 'http://localhost:8000'
+# SITEURL not needed if RELATIVE URL set to True
+# SITEURL = 'http://localhost:8000'
+# Uncomment following line if you want document-relative URLs when developing
+# if RELATIVE_URLS overrides SITEURL with "."
+RELATIVE_URLS = True
+
 SITE_LOGO = "site_logo.png"
 ABOUT = "One brick at a time contributing to the DKIW pyramid fundation"
 
@@ -61,7 +66,7 @@ LINKS = (('Pelican', 'https://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('Twitter', 'twitter', 'Twitter.com'),
+SOCIAL = (('Twitter', 'twitter', 'https://twitter.com/frenchtouchdev'),
           ('Youtube', 'youtube', 'https://www.youtube.com/@frenchtouchdev'),
           ('tiktok','tiktok','https://www.tiktok.com/@frenchtouchdev'),
           ('Facebook','facebook-f','https://www.facebook.com/frenchtouch.dev'),
@@ -73,5 +78,3 @@ SOCIAL = (('Twitter', 'twitter', 'Twitter.com'),
 DEFAULT_PAGINATION = 10
 
 
-# Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = True

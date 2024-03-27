@@ -1,3 +1,4 @@
+Notion2Pelican
 python-dotenv
 feedgenerator
 Markdown
