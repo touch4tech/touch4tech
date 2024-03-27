@@ -61,7 +61,6 @@ def list_drafts(dp_content,theme,dp_www):
                                                     "url": url}
                                                   )
     dp_j2templates = abspath(join(dp_theme, theme, "templates")) #, 'draft_index.j2'))
-    print(53,"**********", dp_j2templates)
     # conf = {"articles":[{"title":"test1","date":"2023-01-01","title":"test title"}]}
     from jinja2 import Environment, FileSystemLoader, Template
     env = Environment(loader=FileSystemLoader(dp_j2templates))
