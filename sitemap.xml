@@ -6,7 +6,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://localhost:8000/</loc>
-<lastmod>2024-03-27T09:06:43-00:00</lastmod>
+<lastmod>2024-03-27T09:14:56-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -34,56 +34,56 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://localhost:8000/archives.html</loc>
-<lastmod>2024-03-27T09:06:43-00:00</lastmod>
+<lastmod>2024-03-27T09:14:56-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/author/oberron.html</loc>
-<lastmod>2024-03-27T09:06:43-00:00</lastmod>
+<lastmod>2024-03-27T09:14:56-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/author/oberron2.html</loc>
-<lastmod>2024-03-27T09:06:43-00:00</lastmod>
+<lastmod>2024-03-27T09:14:56-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/author/rezpe-oberron.html</loc>
-<lastmod>2024-03-27T09:06:43-00:00</lastmod>
+<lastmod>2024-03-27T09:14:56-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/author/rezpe.html</loc>
-<lastmod>2024-03-27T09:06:43-00:00</lastmod>
+<lastmod>2024-03-27T09:14:56-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/author/rezpe2.html</loc>
-<lastmod>2024-03-27T09:06:43-00:00</lastmod>
+<lastmod>2024-03-27T09:14:56-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/author/sebas.html</loc>
-<lastmod>2024-03-27T09:06:43-00:00</lastmod>
+<lastmod>2024-03-27T09:14:56-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/authors.html</loc>
-<lastmod>2024-03-27T09:06:43-00:00</lastmod>
+<lastmod>2024-03-27T09:14:56-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -104,49 +104,49 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://localhost:8000/categories.html</loc>
-<lastmod>2024-03-27T09:06:43-00:00</lastmod>
+<lastmod>2024-03-27T09:14:56-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/category/business.html</loc>
-<lastmod>2024-03-27T09:06:43-00:00</lastmod>
+<lastmod>2024-03-27T09:14:56-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/category/category.html</loc>
-<lastmod>2024-03-27T09:06:43-00:00</lastmod>
+<lastmod>2024-03-27T09:14:56-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/category/idea.html</loc>
-<lastmod>2024-03-27T09:06:43-00:00</lastmod>
+<lastmod>2024-03-27T09:14:56-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/category/misc.html</loc>
-<lastmod>2024-03-27T09:06:43-00:00</lastmod>
+<lastmod>2024-03-27T09:14:56-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/category/misc2.html</loc>
-<lastmod>2024-03-27T09:06:43-00:00</lastmod>
+<lastmod>2024-03-27T09:14:56-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/category/prediction.html</loc>
-<lastmod>2024-03-27T09:06:43-00:00</lastmod>
+<lastmod>2024-03-27T09:14:56-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -230,14 +230,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://localhost:8000/index2.html</loc>
-<lastmod>2024-03-27T09:06:43-00:00</lastmod>
+<lastmod>2024-03-27T09:14:56-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/index3.html</loc>
-<lastmod>2024-03-27T09:06:43-00:00</lastmod>
+<lastmod>2024-03-27T09:14:56-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -286,28 +286,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://localhost:8000/pages/about.html</loc>
-<lastmod>2024-03-27T09:06:43-00:00</lastmod>
+<lastmod>2024-03-27T09:14:56-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/pages/authors.html</loc>
-<lastmod>2024-03-27T09:06:43-00:00</lastmod>
+<lastmod>2024-03-27T09:14:56-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/pages/contact.html</loc>
-<lastmod>2024-03-27T09:06:43-00:00</lastmod>
+<lastmod>2024-03-27T09:14:56-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/pages/credits.html</loc>
-<lastmod>2024-03-27T09:06:43-00:00</lastmod>
+<lastmod>2024-03-27T09:14:56-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -320,15 +320,22 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>http://localhost:8000/stock-markets-as-new-temples.html</loc>
+<lastmod>2022-11-25T05:54:00+00:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>http://localhost:8000/tag/video.html</loc>
-<lastmod>2024-03-27T09:06:43-00:00</lastmod>
+<lastmod>2024-03-27T09:14:56-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/tags.html</loc>
-<lastmod>2024-03-27T09:06:43-00:00</lastmod>
+<lastmod>2024-03-27T09:14:56-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
