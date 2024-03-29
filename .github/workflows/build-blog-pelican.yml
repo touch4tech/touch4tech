@@ -30,10 +30,11 @@ jobs:
       - name: Run Pelican
         id: run-pelican
         run: |
-          #pelican content --output docs --settings pelicanconf.py
-          python wrapper.py
+          # wrapper -n pulls notion pages in notion folder then used
+          # by wrapper -g builds for github pages
+          python wrapper.py -g -n
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.2.0
         with:
           branch: gh-pages # The branch the action should deploy to.
-          folder: www_folder # The folder the action should deploy.
+          folder: www_folder # The folder the action should deploy from.

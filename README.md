@@ -43,6 +43,7 @@ List of pelicanconf.py globals used
 AUTHOR
 FEED_ALL_ATOM set to `"feed.xml"` needs to be aligned with values in `super-search.js` for the .js to find content and allow local search
 PATH
+ARTICLE_PATHS: a list of folders which hold articles (useful to process local and notion)
 STATIC_PATHS
 SITENAME
 SITE_LOGO
