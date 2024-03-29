@@ -54,6 +54,12 @@ PLUGINS
     more_categories
     MARKUP (requires `Markdown` package to be installed or fails silently)
 
+## INSTALL
+
+### Locally
+
+requires python>=3.8
+
 ## CREDITS 
 
 > See Credits
