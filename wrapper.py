@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 import pkg_resources
 from os.path import abspath, isdir, join,pardir
 from os import mkdir, walk
-from os import getenv
+from os import getenv, environ
 import pathlib
 from shutil import copytree, rmtree
 import sys
@@ -45,6 +45,7 @@ def check_venv(test_requirements=True):
 
 
 def pre_pelican(dp_content,theme,dp_www,
+                build_flow,
                 rebuild_tmp=True,
                 rebuild_notion=False,
                 dp_not=dp_tmp):
@@ -58,6 +59,8 @@ def pre_pelican(dp_content,theme,dp_www,
     dp_content: str
     theme: str
     dp_www: str
+    build_flow: str
+        if build_flow=="gh": gets secrets from os.environ
     rebuild_tmp: bool
     rebuild_notion: bool
         if True will call pull_notion to update the notion folder
@@ -82,7 +85,7 @@ def pre_pelican(dp_content,theme,dp_www,
 
     # 2. add the notion pages
     if rebuild_notion:
-        pull_notion(dp_not = dp_notion)
+        pull_notion(dp_not = dp_notion, build_flow=build_flow)
     else:
         print("NOTION **NOT** updated")
 
@@ -131,7 +134,7 @@ def post_pelican(dp_content,theme,dp_www, pelican_results, delete_tmp=False):
             rmtree(dp_tmp)
 
 
-def pull_notion(dp_not):
+def pull_notion(dp_not, build_flow):
     """ pulls the notion pages into the local file system. Not checks
     files will be overwritten.
 
@@ -139,10 +142,17 @@ def pull_notion(dp_not):
     ----------
     dp_not: str
         the path where notion files shall be written.
+    build_flow: str
+        switch between loadenv and os.environ
     """
     load_dotenv()
-    MY_NOTION_SECRET = getenv("NOTIONKEY")
-    FT_dbid = getenv("FT_dbid")
+    if build_flow=="gh":
+        MY_NOTION_SECRET = environ["NOTIONKEY"]
+        FT_dbid = environ["FT_dbid"]
+        print(152, build_flow)
+    else:
+        MY_NOTION_SECRET = getenv("NOTIONKEY")
+        FT_dbid = getenv("FT_dbid")
     headers = get_notion_headers(MY_NOTION_SECRET)
     # notion_db_id = MY_NOTION_DB_ID
     res = readDatabase(databaseId=FT_dbid, notion_header=headers)
@@ -234,12 +244,14 @@ if __name__=="__main__":
                         action="store_true")
     args = parser.parse_args()
     print(args)
+    build_flow = "win"
     if args.local:
         print("BUILD DEV LOCALLY")
     elif args.staging:
         print("BUILDING for STAGING SERVER")
     elif args.git_hub:
         print("BUILDING for GITHUB ACTIONS and gh-pages")
+        build_flow = "gh"
     else:
         print("SELECT AN OPTION !!!")
     if args.local or args.git_hub:
@@ -248,7 +260,8 @@ if __name__=="__main__":
         dp_www = www_folder
         theme = "theme"
 
-    dp_content_tmp = pre_pelican(dp_content, theme, dp_www, 
+    dp_content_tmp = pre_pelican(dp_content, theme, dp_www,
+                                 build_flow = build_flow,
                                  rebuild_notion=args.notion,
                                  dp_not = dp_notion)
     pelican_results = pelican_wrapper(dp_content_tmp, theme, dp_www, test_requirements=True)
