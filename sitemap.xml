@@ -5,378 +5,378 @@ xmlns:xhtml="http://www.w3.org/1999/xhtml"
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>http://localhost:8000/</loc>
-<lastmod>2024-03-27T09:14:56-00:00</lastmod>
+<loc>/</loc>
+<lastmod>2024-03-29T08:22:08-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/5-stages-of-science.html</loc>
+<loc>/5-stages-of-science.html</loc>
 <lastmod>2022-08-25T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/a-world-of-robots.html</loc>
+<loc>/a-world-of-robots.html</loc>
 <lastmod>2021-09-25T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/apple-car.html</loc>
+<loc>/apple-car.html</loc>
 <lastmod>2021-08-27T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/archives.html</loc>
-<lastmod>2024-03-27T09:14:56-00:00</lastmod>
+<loc>/archives.html</loc>
+<lastmod>2024-03-29T08:22:08-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/author/oberron.html</loc>
-<lastmod>2024-03-27T09:14:56-00:00</lastmod>
+<loc>/author/oberron.html</loc>
+<lastmod>2024-03-29T08:22:08-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/author/oberron2.html</loc>
-<lastmod>2024-03-27T09:14:56-00:00</lastmod>
+<loc>/author/oberron2.html</loc>
+<lastmod>2024-03-29T08:22:08-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/author/rezpe-oberron.html</loc>
-<lastmod>2024-03-27T09:14:56-00:00</lastmod>
+<loc>/author/rezpe-oberron.html</loc>
+<lastmod>2024-03-29T08:22:08-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/author/rezpe.html</loc>
-<lastmod>2024-03-27T09:14:56-00:00</lastmod>
+<loc>/author/rezpe.html</loc>
+<lastmod>2024-03-29T08:22:08-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/author/rezpe2.html</loc>
-<lastmod>2024-03-27T09:14:56-00:00</lastmod>
+<loc>/author/rezpe2.html</loc>
+<lastmod>2024-03-29T08:22:08-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/author/sebas.html</loc>
-<lastmod>2024-03-27T09:14:56-00:00</lastmod>
+<loc>/author/sebas.html</loc>
+<lastmod>2024-03-29T08:22:08-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/authors.html</loc>
-<lastmod>2024-03-27T09:14:56-00:00</lastmod>
+<loc>/authors.html</loc>
+<lastmod>2024-03-29T08:22:08-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/business-and-suspension-of-disbelief.html</loc>
+<loc>/business-and-suspension-of-disbelief.html</loc>
 <lastmod>2021-10-01T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/business-development-is-a-gradient-descent-algorithm.html</loc>
+<loc>/business-development-is-a-gradient-descent-algorithm.html</loc>
 <lastmod>2022-03-04T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/categories.html</loc>
-<lastmod>2024-03-27T09:14:56-00:00</lastmod>
+<loc>/categories.html</loc>
+<lastmod>2024-03-29T08:22:08-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/category/business.html</loc>
-<lastmod>2024-03-27T09:14:56-00:00</lastmod>
+<loc>/category/business.html</loc>
+<lastmod>2024-03-29T08:22:08-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/category/category.html</loc>
-<lastmod>2024-03-27T09:14:56-00:00</lastmod>
+<loc>/category/category.html</loc>
+<lastmod>2024-03-29T08:22:08-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/category/idea.html</loc>
-<lastmod>2024-03-27T09:14:56-00:00</lastmod>
+<loc>/category/idea.html</loc>
+<lastmod>2024-03-29T08:22:08-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/category/misc.html</loc>
-<lastmod>2024-03-27T09:14:56-00:00</lastmod>
+<loc>/category/misc.html</loc>
+<lastmod>2024-03-29T08:22:08-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/category/misc2.html</loc>
-<lastmod>2024-03-27T09:14:56-00:00</lastmod>
+<loc>/category/misc2.html</loc>
+<lastmod>2024-03-29T08:22:08-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/category/prediction.html</loc>
-<lastmod>2024-03-27T09:14:56-00:00</lastmod>
+<loc>/category/prediction.html</loc>
+<lastmod>2024-03-29T08:22:08-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/concept.html</loc>
+<loc>/concept.html</loc>
 <lastmod>2016-05-01T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/content-nature.html</loc>
+<loc>/content-nature.html</loc>
 <lastmod>2021-08-06T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/convexity.html</loc>
+<loc>/convexity.html</loc>
 <lastmod>2022-11-19T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/economy-model-based-on-physics.html</loc>
+<loc>/economy-model-based-on-physics.html</loc>
 <lastmod>2022-10-02T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/encyclopedism-future.html</loc>
+<loc>/encyclopedism-future.html</loc>
 <lastmod>2022-04-02T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/fashion-technology-and-trends.html</loc>
+<loc>/fashion-technology-and-trends.html</loc>
 <lastmod>2016-07-04T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/fat-tail-education.html</loc>
+<loc>/fat-tail-education.html</loc>
 <lastmod>2022-06-03T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/french-touch-lost-for-online-fashion.html</loc>
+<loc>/french-touch-lost-for-online-fashion.html</loc>
 <lastmod>2016-05-20T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/french-touch.html</loc>
+<loc>/french-touch.html</loc>
 <lastmod>2016-05-01T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/hello-world.html</loc>
+<loc>/hello-world.html</loc>
 <lastmod>2016-05-01T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/idea.html</loc>
+<loc>/idea.html</loc>
 <lastmod>2016-05-01T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/index2.html</loc>
-<lastmod>2024-03-27T09:14:56-00:00</lastmod>
+<loc>/index2.html</loc>
+<lastmod>2024-03-29T08:22:08-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/index3.html</loc>
-<lastmod>2024-03-27T09:14:56-00:00</lastmod>
+<loc>/index3.html</loc>
+<lastmod>2024-03-29T08:22:08-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/information-funnel.html</loc>
+<loc>/information-funnel.html</loc>
 <lastmod>2021-08-12T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/innovation-has-stalled.html</loc>
+<loc>/innovation-has-stalled.html</loc>
 <lastmod>2021-09-03T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/knowledge-dogma.html</loc>
+<loc>/knowledge-dogma.html</loc>
 <lastmod>2021-10-30T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/knowledge-pyramid.html</loc>
+<loc>/knowledge-pyramid.html</loc>
 <lastmod>2021-10-29T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/notion2md.html</loc>
+<loc>/notion2md.html</loc>
 <lastmod>2022-10-21T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/organisations-knowledge-creating-entities.html</loc>
+<loc>/organisations-knowledge-creating-entities.html</loc>
 <lastmod>2022-10-02T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/pages/about.html</loc>
-<lastmod>2024-03-27T09:14:56-00:00</lastmod>
+<loc>/pages/about.html</loc>
+<lastmod>2024-03-29T08:22:08-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/pages/authors.html</loc>
-<lastmod>2024-03-27T09:14:56-00:00</lastmod>
+<loc>/pages/authors.html</loc>
+<lastmod>2024-03-29T08:22:08-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/pages/contact.html</loc>
-<lastmod>2024-03-27T09:14:56-00:00</lastmod>
+<loc>/pages/contact.html</loc>
+<lastmod>2024-03-29T08:22:08-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/pages/credits.html</loc>
-<lastmod>2024-03-27T09:14:56-00:00</lastmod>
+<loc>/pages/credits.html</loc>
+<lastmod>2024-03-29T08:22:08-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/product-market-fit.html</loc>
+<loc>/product-market-fit.html</loc>
 <lastmod>2022-11-19T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/stock-markets-as-new-temples.html</loc>
+<loc>/stock-markets-as-new-temples.html</loc>
 <lastmod>2022-11-25T05:54:00+00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/tag/video.html</loc>
-<lastmod>2024-03-27T09:14:56-00:00</lastmod>
+<loc>/tag/video.html</loc>
+<lastmod>2024-03-29T08:22:08-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/tags.html</loc>
-<lastmod>2024-03-27T09:14:56-00:00</lastmod>
+<loc>/tags.html</loc>
+<lastmod>2024-03-29T08:22:08-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/technical-innovations-will-lead-to-new-political-systems.html</loc>
+<loc>/technical-innovations-will-lead-to-new-political-systems.html</loc>
 <lastmod>2021-10-27T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/the-duck-and-the-peacock.html</loc>
+<loc>/the-duck-and-the-peacock.html</loc>
 <lastmod>2022-10-21T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/thoughts-on-information.html</loc>
+<loc>/thoughts-on-information.html</loc>
 <lastmod>2021-09-17T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/usage-over-time.html</loc>
+<loc>/usage-over-time.html</loc>
 <lastmod>2016-05-15T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/what-is-french-touchtech.html</loc>
+<loc>/what-is-french-touchtech.html</loc>
 <lastmod>2016-05-19T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/what-is-the-french-touch.html</loc>
+<loc>/what-is-the-french-touch.html</loc>
 <lastmod>2016-05-10T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
