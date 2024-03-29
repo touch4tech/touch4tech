@@ -1,4 +1,6 @@
-# FRENCHTOUCH.dev
+# TOUCH 4 TECH
+
+> One brick at a time - contributing to the DKIW pyramid fundation
 
 ## TODO
 
