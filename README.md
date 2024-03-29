@@ -59,6 +59,12 @@ PLUGINS
 ### Locally
 
 requires python>=3.8
+requires a .env file (not synched) with FT_dbid and NOTIONKEY
+
+### GITHUB WORKFLOW
+
+1. go in project>>Settings>Environement
+select the environment listed in the workflow job>build_job>environment
 
 ## CREDITS 
 
