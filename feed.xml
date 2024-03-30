@@ -1,16 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Touch 4 Tech</title><link href="/" rel="alternate"></link><link href="/feed.xml" rel="self"></link><id>/</id><updated>2022-11-25T05:54:00+00:00</updated><entry><title>Stock-Markets as new temples?</title><link href="/stock-markets-as-new-temples.html" rel="alternate"></link><published>2022-11-25T05:54:00+00:00</published><updated>2022-11-25T05:54:00+00:00</updated><author><name>Rezpe &amp; Oberron</name></author><id>tag:None,2022-11-25:/stock-markets-as-new-temples.html</id><summary type="html">&lt;h1&gt;Stock-Markets as new temples?&lt;/h1&gt;
-&lt;p&gt;&lt;img alt="source http://www.panoramio.com/photo/69848924, retrieved from wikipedia - author ThomasEE - CC BY 3.0" src="https://prod-files-secure.s3.us-west-2.amazonaws.com/7f35e08f-716e-4cce-94e2-2f47dac447ed/890539ef-92c9-4fa8-9422-1e0c589cdab5/New_York_Stock_Exchange_-_panoramio.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240329%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20240329T083835Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=f67ec73f778890776e890d4bd01ad281a0b6d607cb9bab0179a38bf5fd57112a&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject"&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Touch 4 Tech</title><link href="/" rel="alternate"></link><link href="/feed.xml" rel="self"></link><id>/</id><updated>2024-03-29T08:50:00+00:00</updated><entry><title>Notion2Pelican Release 0.0.1</title><link href="/notion2pelican-release-001.html" rel="alternate"></link><published>2024-03-29T08:50:00+00:00</published><updated>2024-03-29T08:50:00+00:00</updated><author><name>Rezpe &amp; Oberron</name></author><id>tag:None,2024-03-29:/notion2pelican-release-001.html</id><summary type="html">&lt;h1&gt;Notion2Pelican Release 0.0.1&lt;/h1&gt;
+&lt;p&gt;The team at Touch4Tech is delighted to announce that we just published on pypi the tool we use for maintaining our blog: Notion2Pelican !&lt;/p&gt;
+&lt;p&gt;We hope this tool will allow many more to leverage our workflow: collaborating on Notion and publishing on their own blogging platform …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Notion2Pelican Release 0.0.1&lt;/h1&gt;
+&lt;p&gt;The team at Touch4Tech is delighted to announce that we just published on pypi the tool we use for maintaining our blog: Notion2Pelican !&lt;/p&gt;
+&lt;p&gt;We hope this tool will allow many more to leverage our workflow: collaborating on Notion and publishing on their own blogging platform.&lt;/p&gt;
+&lt;p&gt;This is our first contribution to the text defined DKIW pyramid as we drafted it our gist: &lt;/p&gt;
+&lt;p&gt;&lt;a href="https://gist.github.com/oberron/36e0394188b6f80e55157793f20e3a54#file-funnel-puml"&gt;https://gist.github.com/oberron/36e0394188b6f80e55157793f20e3a54#file-funnel-puml&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;One additional goal we aim to enable with this tool, is ensuring own data integrity in the long term: should Notion decide like many before to drop storage for older pages, enabling your own back-up ensures you can decide which of your writting deserves a secondary back-up beyond Notion’s servers.&lt;/p&gt;</content><category term="misc"></category></entry><entry><title>Code eating the world, but why?</title><link href="/code-eating-the-world-but-why.html" rel="alternate"></link><published>2024-03-29T08:41:00+00:00</published><updated>2024-03-29T08:41:00+00:00</updated><author><name>Rezpe &amp; Oberron</name></author><id>tag:None,2024-03-29:/code-eating-the-world-but-why.html</id><summary type="html">&lt;h1&gt;Code eating the world, but why?&lt;/h1&gt;
+&lt;p&gt;The geek version of this title being  “* as code”&lt;/p&gt;
+&lt;p&gt;TLDR; code is short for explicit knowledge&lt;/p&gt;
+&lt;p&gt;But why is increasing the ratio of explicit knowledge necessary and a trend?&lt;/p&gt;
+&lt;p&gt;One of the most powerful observation about human knowledge is captured in the polyani paradox …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Code eating the world, but why?&lt;/h1&gt;
+&lt;p&gt;The geek version of this title being  “* as code”&lt;/p&gt;
+&lt;p&gt;TLDR; code is short for explicit knowledge&lt;/p&gt;
+&lt;p&gt;But why is increasing the ratio of explicit knowledge necessary and a trend?&lt;/p&gt;
+&lt;p&gt;One of the most powerful observation about human knowledge is captured in the polyani paradox, of which the challenge to land back on the moon is the most visible example.&lt;/p&gt;
+&lt;p&gt;The trend of expliciting knowledge is rooted first in SW as machines can be defined as 0 implicit knowledge intelligence.&lt;/p&gt;
+&lt;p&gt;Computer scientists have addressed this challenge for humans by building systems to make this training from grounds up always easier.&lt;/p&gt;
+&lt;p&gt;In order to move knowledge to explicit knowledge, they build the following stack incrementally:
+1. code: explicit procedural and information processing
+1. code versioning as code (git, svn, … as opposed to file naming and zip file)
+1. codespace as code (github code space)
+1. pipeline as code
+1. infrastructure as code
+1. CMS as code&lt;/p&gt;
+&lt;p&gt;As more and more professions get increasingly reliant on IT tools, this leads to the perception that SW is eating the world, where what really happens is just transfering swath of implicit - domain specific- knowledge, into an explicit knowledge repository hosted on machines (either local file systems or Wikipedia, YouTube, …)&lt;/p&gt;
+&lt;p&gt;Notes:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.notion.so/176f095c535f40c88a9cbe3e53b46348"&gt;polyani-paradox&lt;/a&gt; is that we know more than we can tell, or in other words that implicit knowledge is larger than the explicit knowledge.&lt;/p&gt;
+&lt;p&gt;while youtube tutorials have somehow reduced this gap, there is still a huge gap.&lt;/p&gt;
+&lt;p&gt;In 2011, Andersen said SW is eating the world.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://a16z.com/2011/08/20/why-software-is-eating-the-world/"&gt;https://a16z.com/2011/08/20/why-software-is-eating-the-world/&lt;/a&gt;&lt;/p&gt;</content><category term="misc"></category></entry><entry><title>Stock-Markets as new temples?</title><link href="/stock-markets-as-new-temples.html" rel="alternate"></link><published>2022-11-25T05:54:00+00:00</published><updated>2022-11-25T05:54:00+00:00</updated><author><name>Rezpe &amp; Oberron</name></author><id>tag:None,2022-11-25:/stock-markets-as-new-temples.html</id><summary type="html">&lt;h1&gt;Stock-Markets as new temples?&lt;/h1&gt;
+&lt;p&gt;&lt;img alt="source http://www.panoramio.com/photo/69848924, retrieved from wikipedia - author ThomasEE - CC BY 3.0" src="https://prod-files-secure.s3.us-west-2.amazonaws.com/7f35e08f-716e-4cce-94e2-2f47dac447ed/890539ef-92c9-4fa8-9422-1e0c589cdab5/New_York_Stock_Exchange_-_panoramio.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240330%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20240330T003427Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=9f9db8785505d3a99a3dc986cb6875763db1e9a502121e110af0efed67487c04&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject"&gt;&lt;/p&gt;
 &lt;p&gt;Society power initially concentrated in 3 pillars : caserns, temples and castles.&lt;/p&gt;
 &lt;p&gt;Then came the merchants which overthrew castles (US independance, French Revolution,…) and spread wealth in houses, while universities replaced temples as the places where knowledge was shared and developed but the caserns prevailed.&lt;/p&gt;
 &lt;p&gt;However it …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Stock-Markets as new temples?&lt;/h1&gt;
-&lt;p&gt;&lt;img alt="source http://www.panoramio.com/photo/69848924, retrieved from wikipedia - author ThomasEE - CC BY 3.0" src="https://prod-files-secure.s3.us-west-2.amazonaws.com/7f35e08f-716e-4cce-94e2-2f47dac447ed/890539ef-92c9-4fa8-9422-1e0c589cdab5/New_York_Stock_Exchange_-_panoramio.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240329%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20240329T083835Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=f67ec73f778890776e890d4bd01ad281a0b6d607cb9bab0179a38bf5fd57112a&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="source http://www.panoramio.com/photo/69848924, retrieved from wikipedia - author ThomasEE - CC BY 3.0" src="https://prod-files-secure.s3.us-west-2.amazonaws.com/7f35e08f-716e-4cce-94e2-2f47dac447ed/890539ef-92c9-4fa8-9422-1e0c589cdab5/New_York_Stock_Exchange_-_panoramio.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240330%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20240330T003427Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=9f9db8785505d3a99a3dc986cb6875763db1e9a502121e110af0efed67487c04&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject"&gt;&lt;/p&gt;
 &lt;p&gt;Society power initially concentrated in 3 pillars : caserns, temples and castles.&lt;/p&gt;
 &lt;p&gt;Then came the merchants which overthrew castles (US independance, French Revolution,…) and spread wealth in houses, while universities replaced temples as the places where knowledge was shared and developed but the caserns prevailed.&lt;/p&gt;
 &lt;p&gt;However it seems that temples have been on the back since the late XIXth century, when looking at stock market around the world&lt;/p&gt;
 &lt;h3&gt;Confirmation bias:&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;https://citybeautifulblog.com/2022/02/24/nyse-building-a-roman-temple-with-glass-walls/#:~:text=The building looks like a,stability%2C security%2C and strength&lt;/li&gt;
+&lt;li&gt;This &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Falsification bias:&lt;/h3&gt;
 &lt;ul&gt;
