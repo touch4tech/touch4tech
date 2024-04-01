@@ -93,7 +93,9 @@ def pre_pelican(dp_content,theme,dp_www,
     return dp_tmp
 
 
-def pelican_wrapper(dp_content, theme, dp_www, test_requirements=False):
+def pelican_wrapper(dp_content, theme, dp_www,
+                    test_requirements=False,
+                    pelican_e=None):
     """ add here code around pelican:
     a. check for required packages
     b. run specific actions (like own pelican extensions not available in 
@@ -117,7 +119,13 @@ def pelican_wrapper(dp_content, theme, dp_www, test_requirements=False):
                 run_pelican=False
         
     if run_pelican:
-        result = subprocess.run(["pelican",dp_content,"-t","static/theme","-o",www_folder], capture_output=True, text=True)
+        pel_ags = ["pelican",dp_content,
+                   "-t","static/theme","-o",www_folder]
+        if pelican_e:
+            pel_ags.append("-e")
+            for pel_e in pelican_e.split(" "):
+                pel_ags.append(pel_e)
+        result = subprocess.run(pel_ags, capture_output=True, text=True)
     return result
 
 
@@ -245,8 +253,11 @@ if __name__=="__main__":
     args = parser.parse_args()
     print(args)
     build_flow = "win"
+    pelican_overloads = None
     if args.local:
         print("BUILD DEV LOCALLY")
+        pelican_overloads = "-e FEED_DOMAIN=\"'http://localhost:8000'\""
+        pelican_overloads = "SITEURL=\"'http://localhost:5000'\" FEED_DOMAIN=\"'http://localhost:4000'\""
     elif args.staging:
         print("BUILDING for STAGING SERVER")
     elif args.git_hub:
@@ -264,5 +275,6 @@ if __name__=="__main__":
                                  build_flow = build_flow,
                                  rebuild_notion=args.notion,
                                  dp_not = dp_notion)
-    pelican_results = pelican_wrapper(dp_content_tmp, theme, dp_www, test_requirements=True)
+    pelican_results = pelican_wrapper(dp_content_tmp, theme, dp_www, test_requirements=True,
+                                      pelican_e=pelican_overloads)
     post_pelican(dp_content, theme, dp_www, pelican_results)
