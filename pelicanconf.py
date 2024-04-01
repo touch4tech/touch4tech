@@ -5,15 +5,18 @@ from os.path import abspath,join
 AUTHOR = 'Rezpe & Oberron'
 SITENAME = 'Touch 4 Tech'
 # SITEURL not needed if RELATIVE URL set to True
-# SITEURL = 'http://localhost:8000'
+# but SITREURL needed for feed domain
+SITEURL = "https://frenchtouch.dev/"
+FEED_DOMAIN = SITEURL
 # Uncomment following line if you want document-relative URLs when developing
-# if RELATIVE_URLS overrides SITEURL with "."
+# if RELATIVE_URLS overrides SITEURL with "." in site content
+# but not in feed.xml
 RELATIVE_URLS = True
 
 SITE_LOGO = "site_logo.png"
 ABOUT = "One brick at a time contributing to the DKIW pyramid fundation"
 
-RELATIVE_URLS = False
+# RELATIVE_URLS = False
 SITEMAP = { "format": "xml"}
 
 
@@ -49,7 +52,7 @@ MARKUP = ('md', )
 FEED_ALL_ATOM = "feed.xml" #MCV changed for testing
 #FEED_ALL_ATOM = None
 RSS_FEED_SUMMARY_ONLY = False
-# FEED_DOMAIN = ":8000"
+
 FEED_RSS_URL = True
 FEED_MAX_ITEMS = 500
 CATEGORY_FEED_ATOM = None
@@ -73,6 +76,7 @@ SOCIAL = (('Twitter', 'twitter', 'https://twitter.com/frenchtouchdev'),
           ('GitHub','github','https://github.com/french-touch/frenchtouch'),
           ("Podcast",'podcast',"https://feeds.soundcloud.com/users/soundcloud:users:404637861/sounds.rss"),
           ("Instagram", "instagram","https://www.instagram.com/frenchtouch.dev/"),
+          ("RSS","rss",f"{FEED_DOMAIN}feed.xml"),
           ("Mail","envelope","mailto:tellme@frenchtouch.dev"))
 
 DEFAULT_PAGINATION = 10
