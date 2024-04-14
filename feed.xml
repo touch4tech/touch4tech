@@ -16,14 +16,34 @@
 &lt;p&gt;In absence of open source corpus for high-tech English and this is probably due to a high ratio of jargon. Here is a little experiment of how to leverage chat GPT to provide basic English definition for some of those words.&lt;/p&gt;
 &lt;p&gt;As a side note basic English was first defined by Ogden&lt;/p&gt;
 &lt;p&gt;First starting with a working example and then a few failed attempts&lt;/p&gt;
+&lt;h1&gt;working prompt&lt;/h1&gt;
 &lt;p&gt;Prompt&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;define in english the word presentation using only basic English as defined by Ogden&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;Answer&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A presentation is when someone shows and explains something to others.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1&gt;failed prompts&lt;/h1&gt;
 &lt;p&gt;Previous attempts included:&lt;/p&gt;
 &lt;p&gt;Prompt:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;define in english the word presentation using only basic English&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;Answer&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A presentation is when someone shows and explains a topic or project to others.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;Or even less accurately:&lt;/p&gt;
 &lt;p&gt;Prompt&lt;/p&gt;
-&lt;p&gt;Answer.&lt;/p&gt;</content><category term="misc"></category></entry><entry><title>Notion2Pelican Release 0.0.1</title><link href="https://frenchtouch.dev/notion2pelican-release-001.html" rel="alternate"></link><published>2024-03-29T08:50:00+00:00</published><updated>2024-03-29T08:50:00+00:00</updated><author><name>Rezpe &amp; Oberron</name></author><id>tag:frenchtouch.dev,2024-03-29:/notion2pelican-release-001.html</id><summary type="html">&lt;h1&gt;Notion2Pelican Release 0.0.1&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;define in english the word presentation using only simple English&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Answer.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A presentation is when someone shows and explains something to others, like talking in front of a group and showing pictures or slides.&lt;/p&gt;
+&lt;/blockquote&gt;</content><category term="misc"></category></entry><entry><title>Notion2Pelican Release 0.0.1</title><link href="https://frenchtouch.dev/notion2pelican-release-001.html" rel="alternate"></link><published>2024-03-29T08:50:00+00:00</published><updated>2024-03-29T08:50:00+00:00</updated><author><name>Rezpe &amp; Oberron</name></author><id>tag:frenchtouch.dev,2024-03-29:/notion2pelican-release-001.html</id><summary type="html">&lt;h1&gt;Notion2Pelican Release 0.0.1&lt;/h1&gt;
 &lt;p&gt;The team at Touch4Tech is delighted to announce that we just published on pypi the tool we use for maintaining our blog: Notion2Pelican !&lt;/p&gt;
 &lt;p&gt;We hope this tool will allow many more to leverage our workflow: collaborating on Notion and publishing on their own blogging platform …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Notion2Pelican Release 0.0.1&lt;/h1&gt;
 &lt;p&gt;The team at Touch4Tech is delighted to announce that we just published on pypi the tool we use for maintaining our blog: Notion2Pelican !&lt;/p&gt;
@@ -41,32 +61,34 @@
 &lt;p&gt;One of the most powerful observation about human knowledge is captured in the polyani paradox, of which the challenge to land back on the moon is the most visible example.&lt;/p&gt;
 &lt;p&gt;The trend of expliciting knowledge is rooted first in SW as machines can be defined as 0 implicit knowledge intelligence.&lt;/p&gt;
 &lt;p&gt;Computer scientists have addressed this challenge for humans by building systems to make this training from grounds up always easier.&lt;/p&gt;
-&lt;p&gt;In order to move knowledge to explicit knowledge, they build the following stack incrementally:
-1. code: explicit procedural and information processing
-1. code versioning as code (git, svn, … as opposed to file naming and zip file)
-1. codespace as code (github code space)
-1. pipeline as code
-1. infrastructure as code
-1. CMS as code&lt;/p&gt;
+&lt;p&gt;In order to move knowledge to explicit knowledge, they build the following stack incrementally:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;code: explicit procedural and information processing&lt;/li&gt;
+&lt;li&gt;code versioning as code (git, svn, … as opposed to file naming and zip file)&lt;/li&gt;
+&lt;li&gt;codespace as code (github code space)&lt;/li&gt;
+&lt;li&gt;pipeline as code&lt;/li&gt;
+&lt;li&gt;infrastructure as code&lt;/li&gt;
+&lt;li&gt;CMS as code&lt;/li&gt;
+&lt;/ol&gt;
 &lt;p&gt;As more and more professions get increasingly reliant on IT tools, this leads to the perception that SW is eating the world, where what really happens is just transfering swath of implicit - domain specific- knowledge, into an explicit knowledge repository hosted on machines (either local file systems or Wikipedia, YouTube, …)&lt;/p&gt;
 &lt;p&gt;Notes:&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.notion.so/176f095c535f40c88a9cbe3e53b46348"&gt;polyani-paradox&lt;/a&gt; is that we know more than we can tell, or in other words that implicit knowledge is larger than the explicit knowledge.&lt;/p&gt;
 &lt;p&gt;while youtube tutorials have somehow reduced this gap, there is still a huge gap.&lt;/p&gt;
 &lt;p&gt;In 2011, Andersen said SW is eating the world.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://a16z.com/2011/08/20/why-software-is-eating-the-world/"&gt;https://a16z.com/2011/08/20/why-software-is-eating-the-world/&lt;/a&gt;&lt;/p&gt;</content><category term="misc"></category></entry><entry><title>Stock-Markets as new temples?</title><link href="https://frenchtouch.dev/stock-markets-as-new-temples.html" rel="alternate"></link><published>2022-11-25T05:54:00+00:00</published><updated>2022-11-25T05:54:00+00:00</updated><author><name>Rezpe &amp; Oberron</name></author><id>tag:frenchtouch.dev,2022-11-25:/stock-markets-as-new-temples.html</id><summary type="html">&lt;h1&gt;Stock-Markets as new temples?&lt;/h1&gt;
-&lt;p&gt;&lt;img alt="source http://www.panoramio.com/photo/69848924, retrieved from wikipedia - author ThomasEE - CC BY 3.0" src="https://prod-files-secure.s3.us-west-2.amazonaws.com/7f35e08f-716e-4cce-94e2-2f47dac447ed/890539ef-92c9-4fa8-9422-1e0c589cdab5/New_York_Stock_Exchange_-_panoramio.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240413%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20240413T003036Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=21b96511db299dc81a65003eb3426f64563cc14b07b654ec477d23c6dcdfa380&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="source http://www.panoramio.com/photo/69848924, retrieved from wikipedia - author ThomasEE - CC BY 3.0" src="https://prod-files-secure.s3.us-west-2.amazonaws.com/7f35e08f-716e-4cce-94e2-2f47dac447ed/890539ef-92c9-4fa8-9422-1e0c589cdab5/New_York_Stock_Exchange_-_panoramio.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240414%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20240414T003647Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=c7cdff51eba406cf5950d5717331efc07786194626988713c02b1c096d0ceaed&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject"&gt;&lt;/p&gt;
 &lt;p&gt;Society power initially concentrated in 3 pillars : caserns, temples and castles.&lt;/p&gt;
 &lt;p&gt;Then came the merchants which overthrew castles (US independance, French Revolution,…) and spread wealth in houses, while universities replaced temples as the places where knowledge was shared and developed but the caserns prevailed.&lt;/p&gt;
 &lt;p&gt;However it …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Stock-Markets as new temples?&lt;/h1&gt;
-&lt;p&gt;&lt;img alt="source http://www.panoramio.com/photo/69848924, retrieved from wikipedia - author ThomasEE - CC BY 3.0" src="https://prod-files-secure.s3.us-west-2.amazonaws.com/7f35e08f-716e-4cce-94e2-2f47dac447ed/890539ef-92c9-4fa8-9422-1e0c589cdab5/New_York_Stock_Exchange_-_panoramio.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240413%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20240413T003036Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=21b96511db299dc81a65003eb3426f64563cc14b07b654ec477d23c6dcdfa380&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="source http://www.panoramio.com/photo/69848924, retrieved from wikipedia - author ThomasEE - CC BY 3.0" src="https://prod-files-secure.s3.us-west-2.amazonaws.com/7f35e08f-716e-4cce-94e2-2f47dac447ed/890539ef-92c9-4fa8-9422-1e0c589cdab5/New_York_Stock_Exchange_-_panoramio.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240414%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20240414T003647Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=c7cdff51eba406cf5950d5717331efc07786194626988713c02b1c096d0ceaed&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject"&gt;&lt;/p&gt;
 &lt;p&gt;Society power initially concentrated in 3 pillars : caserns, temples and castles.&lt;/p&gt;
 &lt;p&gt;Then came the merchants which overthrew castles (US independance, French Revolution,…) and spread wealth in houses, while universities replaced temples as the places where knowledge was shared and developed but the caserns prevailed.&lt;/p&gt;
 &lt;p&gt;However it seems that temples have been on the back since the late XIXth century, when looking at stock market around the world&lt;/p&gt;
 &lt;h3&gt;Confirmation bias:&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;This &lt;/li&gt;
+&lt;li&gt;This &lt;a href="https://citybeautifulblog.com/2022/02/24/nyse-building-a-roman-temple-with-glass-walls/#:~:text=The"&gt;article &lt;/a&gt;is just a confirmation bias but beautifully written&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Falsification bias:&lt;/h3&gt;
+&lt;h3&gt;&lt;strong&gt;Falsification bias:&lt;/strong&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;online markets?&lt;/li&gt;
 &lt;li&gt;Economy presents itself as a science grounded in complex mathematics&lt;/li&gt;
