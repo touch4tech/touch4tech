@@ -2,22 +2,21 @@
 # as opposed to publishconf which is for the remote machine
 
 from os.path import abspath,join
-AUTHOR = 'Rezpe & Oberron'
 SITENAME = 'Touch 4 Tech'
-# SITEURL not needed if RELATIVE URL set to True
-# but SITREURL needed for feed domain
-SITEURL = "https://frenchtouch.dev/"
-FEED_DOMAIN = SITEURL
-# Uncomment following line if you want document-relative URLs when developing
-# if RELATIVE_URLS overrides SITEURL with "." in site content
-# but not in feed.xml
-RELATIVE_URLS = True
-
-SITE_LOGO = "site_logo.png"
+AUTHOR = 'Rezpe & Oberron'
 ABOUT = "One brick at a time contributing to the DKIW pyramid fundation"
 
+# SITEURL not needed if RELATIVE URL set to True
+# but SITREURL needed for feed domain
+SITEURL = "https://touch4tech.dev/"
+
+RELATIVE_URLS = True
+FEED_DOMAIN = SITEURL
+
+SITE_LOGO = "site_logo.png"
+
 # RELATIVE_URLS = False
-SITEMAP = { "format": "xml"}
+SITEMAP = {"format": "xml"}
 
 
 DELETE_OUTPUT_DIRECTORY = False
@@ -49,8 +48,7 @@ MARKUP = ('md', )
 # END OF BOILER PLATE for PELICAN-JUPYTER
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = "feed.xml" #MCV changed for testing
-#FEED_ALL_ATOM = None
+FEED_ALL_ATOM = "feed.xml"  # MCV changed for testing
 RSS_FEED_SUMMARY_ONLY = False
 
 FEED_RSS_URL = True
@@ -77,7 +75,7 @@ SOCIAL = (('Twitter', 'twitter', 'https://twitter.com/frenchtouchdev'),
           ("Podcast",'podcast',"https://feeds.soundcloud.com/users/soundcloud:users:404637861/sounds.rss"),
           ("Instagram", "instagram","https://www.instagram.com/frenchtouch.dev/"),
           ("RSS","rss",f"{FEED_DOMAIN}feed.xml"),
-          ("Mail","envelope","mailto:tellme@frenchtouch.dev"))
+          ("Mail", "envelope", "mailto:tellme@frenchtouch.dev"))
 
 DEFAULT_PAGINATION = 10
 
