@@ -67,16 +67,14 @@ LINKS = (('Pelican', 'https://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('Twitter', 'twitter', 'https://twitter.com/frenchtouchdev'),
+SOCIAL = (('Twitter', 'twitter', 'https://twitter.com/touch4tech'),
           ('Youtube', 'youtube', 'https://www.youtube.com/@frenchtouchdev'),
-          ('tiktok','tiktok','https://www.tiktok.com/@frenchtouchdev'),
-          ('Facebook','facebook-f','https://www.facebook.com/frenchtouch.dev'),
-          ('GitHub','github','https://github.com/french-touch/frenchtouch'),
-          ("Podcast",'podcast',"https://feeds.soundcloud.com/users/soundcloud:users:404637861/sounds.rss"),
-          ("Instagram", "instagram","https://www.instagram.com/frenchtouch.dev/"),
-          ("RSS","rss",f"{FEED_DOMAIN}feed.xml"),
-          ("Mail", "envelope", "mailto:tellme@frenchtouch.dev"))
+          ('tiktok', 'tiktok', 'https://www.tiktok.com/@frenchtouchdev'),
+          ('Facebook', 'facebook-f', 'https://www.facebook.com/frenchtouch.dev'),
+          ('GitHub', 'github', 'https://github.com/touch4tech/touch4tech'),
+          ("Podcast", 'podcast', "https://feeds.soundcloud.com/users/soundcloud:users:404637861/sounds.rss"),
+          ("Instagram", "instagram", "https://www.instagram.com/frenchtouch.dev/"),
+          ("RSS", "rss", f"{FEED_DOMAIN}feed.xml"),
+          ("Mail", "envelope", "mailto:tellme@touch4tech.dev"))
 
 DEFAULT_PAGINATION = 10
-
-
