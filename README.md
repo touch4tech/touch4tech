@@ -25,7 +25,7 @@ Note to build locally in a way compatible with CNAME `RELATIVE_URLS` has to be s
 
 ### Git Hub Pages
 
-> Already at works [frenchtouch.dev](https://frenchtouch.dev)
+> Already at works [https://touch4tech.dev/](https://touch4tech.dev/)
 
 ## DOCUMENTATION
 

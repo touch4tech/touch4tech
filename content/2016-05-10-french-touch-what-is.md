@@ -4,7 +4,7 @@ title: What is the French-Touch
 categories: french-touch
 authors: Oberron
 ---
-[FrenchTouch.tech](http://www.frenchtouch.tech) is about discussing the specifics of the `french-touch`. 
+[https://touch4tech.dev/](https://touch4tech.dev/) is about discussing the specifics of the `french-touch` for tech. 
 
 This blog started after reading multiple news article which mentionned the `french-touch`[1](https://medium.com/cuepoint/deeper-than-daft-punk-a-love-letter-to-the-french-touch-f956508153b0#.gkrenc72m),[2](http://www.nytimes.com/1964/04/05/caribbeans-french-touch.html?_r=0),[3](http://www.ft.com/cms/s/2/db51a45e-4472-11e0-931d-00144feab49a.html),... but never explained what it was referrring to.
 

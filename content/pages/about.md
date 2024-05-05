@@ -4,7 +4,7 @@ title: About
 author: Oberron, Sebas
 ---
 
-[FrenchTouch.dev](http://frenchtouch.dev) is about discussing the specifics of the `french-touch`. 
+[https://touch4tech.dev/](https://touch4tech.dev/) is about discussing the specifics of the `french-touch` for tech. 
 
 This blog started after reading multiple news article which mentionned the `french-touch` but never explained what it was referrring to...
 
