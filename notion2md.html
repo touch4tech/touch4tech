@@ -126,8 +126,8 @@
 
 <p>a wrapper file importnotion.py</p>
 <p>touch4tech/importnotion.py</p>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">subprocess</span>
-<span class="kn">from</span><span class="w"> </span><span class="nn">os</span><span class="w"> </span><span class="kn">import</span> <span class="n">environ</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">subprocess</span>
+<span class="kn">from</span> <span class="nn">os</span> <span class="kn">import</span> <span class="n">environ</span>
 
 <span class="n">gist</span> <span class="o">=</span> <span class="s2">&quot;28939ddb1fd4ea4721475cf2edf474e8&quot;</span>
 <span class="n">gist_url</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;https://gist.github.com/</span><span class="si">{</span><span class="n">gist</span><span class="si">}</span><span class="s2">.git&quot;</span>
@@ -138,8 +138,8 @@
 <span class="k">if</span> <span class="ow">not</span> <span class="n">output</span><span class="o">==</span><span class="mi">0</span><span class="p">:</span>
   <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;mv error code: </span><span class="si">{</span><span class="n">output</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
 
-<span class="kn">from</span><span class="w"> </span><span class="nn">notion2md</span><span class="w"> </span><span class="kn">import</span> <span class="n">readDatabase</span><span class="p">,</span> <span class="n">process_page_results</span>
-<span class="kn">from</span><span class="w"> </span><span class="nn">notion2md</span><span class="w"> </span><span class="kn">import</span> <span class="n">get_notion_headers</span><span class="p">,</span> <span class="n">pageid_2_md</span>
+<span class="kn">from</span> <span class="nn">notion2md</span> <span class="kn">import</span> <span class="n">readDatabase</span><span class="p">,</span> <span class="n">process_page_results</span>
+<span class="kn">from</span> <span class="nn">notion2md</span> <span class="kn">import</span> <span class="n">get_notion_headers</span><span class="p">,</span> <span class="n">pageid_2_md</span>
 
 <span class="c1"># notion db id for touch4tech.dev is:</span>
 <span class="n">FT_dbid</span> <span class="o">=</span> <span class="s1">&#39;af9dd2942ef74d7c9faf32e694055a7e&#39;</span>
