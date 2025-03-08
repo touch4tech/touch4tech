@@ -61,7 +61,7 @@ PLUGINS
 
 ### Locally
 
-requires python>=3.8
+requires python>=3.12
 requires a .env file (not synched) with FT_dbid and NOTIONKEY
 
 ### GITHUB WORKFLOW
