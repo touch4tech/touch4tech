@@ -6,3 +6,4 @@ pelican
 pelican-sitemap
 PyYAML
 pelican-more-categories
+setuptools
