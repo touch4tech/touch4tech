@@ -1,6 +1,6 @@
 import argparse
 from dotenv import load_dotenv
-import pkg_resources
+
 from os.path import abspath, isdir, join,pardir
 from os import mkdir, walk
 from os import getenv, environ
@@ -26,22 +26,6 @@ pathlib.Path(dp_notion).mkdir(parents=True, exist_ok=True)
 pathlib.Path(dp_tmp).mkdir(parents=True, exist_ok=True) 
 
 sys.path.insert(1, gist_folder)
-
-def check_venv(test_requirements=True):
-    if test_requirements:
-
-        installed_packages = pkg_resources.working_set
-        installed_versionned_packages_list = sorted(["%s==%s" % (i.key, i.version)
-           for i in installed_packages])
-        installed_packages_list = sorted([i.key for i in installed_packages])
-        # print(installed_packages_list)   
-        # print(installed_versionned_packages_list)
-
-        
-        for needed in ["pelican","jinja2","markdown","pelican-sitemap"]:
-            if needed not in installed_packages_list:
-                print(f"missing {needed}")
-                run_pelican=False
 
 
 def pre_pelican(dp_content,theme,dp_www,
@@ -103,7 +87,7 @@ def pelican_wrapper(dp_content, theme, dp_www,
     """
     run_pelican=True
     
-    if test_requirements:
+    """if test_requirements:
 
         installed_packages = pkg_resources.working_set
         installed_versionned_packages_list = sorted(["%s==%s" % (i.key, i.version)
@@ -117,7 +101,7 @@ def pelican_wrapper(dp_content, theme, dp_www,
             if needed not in installed_packages_list:
                 print(f"missing {needed}")
                 run_pelican=False
-        
+    """        
     if run_pelican:
         pel_ags = ["pelican",dp_content,
                    "-t","static/theme","-o",www_folder]
@@ -275,6 +259,6 @@ if __name__=="__main__":
                                  build_flow = build_flow,
                                  rebuild_notion=args.notion,
                                  dp_not = dp_notion)
-    pelican_results = pelican_wrapper(dp_content_tmp, theme, dp_www, test_requirements=True,
+    pelican_results = pelican_wrapper(dp_content_tmp, theme, dp_www, test_requirements=False,
                                       pelican_e=pelican_overloads)
     post_pelican(dp_content, theme, dp_www, pelican_results)
