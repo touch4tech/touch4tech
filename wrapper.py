@@ -52,7 +52,6 @@ def pre_pelican(dp_content,theme,dp_www,
         folder where notion should be `checked-out`
     
     """
-    check_venv()
     if not isdir(dp_www):
         mkdir(dp_www)
     list_drafts(dp_content,theme,dp_www)
